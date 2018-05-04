@@ -4,7 +4,7 @@ package db;
  * Database operation types used to identify request
  * coming to DataSource.
  */
-public enum DBRequestTypes {
+enum DBRequestTypes {
 
     INSERT, SELECT
 

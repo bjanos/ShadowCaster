@@ -1,20 +1,26 @@
+import app.ShadowCaster;
 import db.DataSource;
+
+import static app.SCFunctionTypes.*;
 
 /**
  * @author Janos Benyovszki
  */
 public class Main {
 
-
-    private static String WORD = "PasswordIsHard12";
-
     public static void main(String[] args) {
 
-        DataSource dataSource = new DataSource();
-        dataSource.executeQuery();
+        var dataSource = new DataSource();
+        var shadowCaster = new ShadowCaster();
+        var word = "Password2018ABC!%&$";
+        String obscured;
+
+        obscured = shadowCaster.execute(word, OBSCURE);
+
+        System.out.println(obscured);
+        System.out.println(shadowCaster.execute(obscured, REVEAL));
 
     }
-
 
 
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rKdtME-iEeiiwuYtENy6cg" name="ShadowCaster">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_uvFDcE-iEeiiwuYtENy6cg" name="ShadowCaster">
+    <ownedAttribute xmi:id="_7ZkZEE-iEeiiwuYtENy6cg" name="main" type="_7ZeScE-iEeiiwuYtENy6cg"/>
+    <ownedAttribute xmi:id="_EyaXwU-jEeiiwuYtENy6cg" name="shadowCaster" type="_EyZwsE-jEeiiwuYtENy6cg"/>
+    <ownedAttribute xmi:id="_K7UPsU-jEeiiwuYtENy6cg" name="dataSource" type="_K7TooE-jEeiiwuYtENy6cg"/>
+    <ownedAttribute xmi:id="_N5hGMU-jEeiiwuYtENy6cg" name="scController" type="_N5gfIE-jEeiiwuYtENy6cg"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_BQq54E-kEeiiwuYtENy6cg" name="Operation_1"/>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_q-5ZkU-mEeiiwuYtENy6cg" name="Operation_2"/>
+    <lifeline xmi:id="_7ZgHoE-iEeiiwuYtENy6cg" name="Main" represents="_7ZkZEE-iEeiiwuYtENy6cg" coveredBy="_BQsIAE-kEeiiwuYtENy6cg"/>
+    <lifeline xmi:id="_EyaXwE-jEeiiwuYtENy6cg" name="ShadowCaster" represents="_EyaXwU-jEeiiwuYtENy6cg" coveredBy="_BQsIAU-kEeiiwuYtENy6cg _BQsIAk-kEeiiwuYtENy6cg _BQsIA0-kEeiiwuYtENy6cg _q-6AoE-mEeiiwuYtENy6cg"/>
+    <lifeline xmi:id="_K7UPsE-jEeiiwuYtENy6cg" name="DataSource" represents="_K7UPsU-jEeiiwuYtENy6cg" coveredBy="_q-6AoU-mEeiiwuYtENy6cg _q-6Aok-mEeiiwuYtENy6cg _q-6Ao0-mEeiiwuYtENy6cg"/>
+    <lifeline xmi:id="_N5hGME-jEeiiwuYtENy6cg" name="SCController" represents="_N5hGMU-jEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BQsIAE-kEeiiwuYtENy6cg" name="Operation_1_sender" covered="_7ZgHoE-iEeiiwuYtENy6cg" message="_BQprwE-kEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BQsIAU-kEeiiwuYtENy6cg" name="Operation_1_receiver" covered="_EyaXwE-jEeiiwuYtENy6cg" message="_BQprwE-kEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_BQsIAk-kEeiiwuYtENy6cg" name="" covered="_EyaXwE-jEeiiwuYtENy6cg" finish="_BQsIA0-kEeiiwuYtENy6cg" start="_BQsIAU-kEeiiwuYtENy6cg" behavior="_BQq54E-kEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q-6AoE-mEeiiwuYtENy6cg" name="Operation_2_sender" covered="_EyaXwE-jEeiiwuYtENy6cg" message="_q-5ZkE-mEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_q-6AoU-mEeiiwuYtENy6cg" name="Operation_2_receiver" covered="_K7UPsE-jEeiiwuYtENy6cg" message="_q-5ZkE-mEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_q-6Aok-mEeiiwuYtENy6cg" name="" covered="_K7UPsE-jEeiiwuYtENy6cg" finish="_q-6Ao0-mEeiiwuYtENy6cg" start="_q-6AoU-mEeiiwuYtENy6cg" behavior="_q-5ZkU-mEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_BQsIA0-kEeiiwuYtENy6cg" name="Operation_1_finish" covered="_EyaXwE-jEeiiwuYtENy6cg" execution="_BQsIAk-kEeiiwuYtENy6cg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_q-6Ao0-mEeiiwuYtENy6cg" name="Operation_2_finish" covered="_K7UPsE-jEeiiwuYtENy6cg" execution="_q-6Aok-mEeiiwuYtENy6cg"/>
+    <message xmi:id="_BQprwE-kEeiiwuYtENy6cg" name="execute" messageSort="asynchCall" receiveEvent="_BQsIAU-kEeiiwuYtENy6cg" sendEvent="_BQsIAE-kEeiiwuYtENy6cg" signature="_BQlaUE-kEeiiwuYtENy6cg"/>
+    <message xmi:id="_q-5ZkE-mEeiiwuYtENy6cg" name="addToDB" messageSort="asynchCall" receiveEvent="_q-6AoU-mEeiiwuYtENy6cg" sendEvent="_q-6AoE-mEeiiwuYtENy6cg" signature="_q-4ygE-mEeiiwuYtENy6cg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7ZeScE-iEeiiwuYtENy6cg" name="Main"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EyZwsE-jEeiiwuYtENy6cg" name="ShadowCaster">
+    <ownedOperation xmi:id="_BQlaUE-kEeiiwuYtENy6cg" name="Operation_1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K7TooE-jEeiiwuYtENy6cg" name="DataSource">
+    <ownedOperation xmi:id="_N2DGAE-kEeiiwuYtENy6cg" name="Operation_1"/>
+    <ownedOperation xmi:id="_q-4ygE-mEeiiwuYtENy6cg" name="Operation_2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_N5gfIE-jEeiiwuYtENy6cg" name="SCController">
+    <ownedOperation xmi:id="__0KqME-kEeiiwuYtENy6cg" name="Operation_1"/>
+  </packagedElement>
+</uml:Model>

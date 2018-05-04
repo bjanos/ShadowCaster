@@ -1,52 +1,71 @@
 package db;
 
+import app.SCFunctionTypes;
+
 import java.sql.*;
 
 /**
- * DB Manager, contacts the SCController to initiate db changes
+ * DB Manager, contacts the dbController to initiate db changes
  */
 public class DataSource {
 
     private static final String DB_NAME = "shadow_caster.db";
     private static final String CONNECTION = "jdbc:sqlite:src\\db\\" + DB_NAME;
 
-    private SCController scController;
+    //TODO add db constants
+    Connection connection;
+    Statement statement;
+    private DBController dbController;
 
-    public DataSource() {
-        this.scController = new SCController();
+    public void addEntry(String input, String output, SCFunctionTypes type) {
+        Entry entry = new Entry();
+        dbController = new DBController();
+        entry.setType(type.toString());
+        entry.setInputText(input);
+        entry.setOutputText(output);
+
+        open();
+
+        try {
+            statement = connection.createStatement();
+        } catch (SQLException e) {
+            //TODO add error to logs
+        }
+
+        //TODO add date to the entry
+
+
+        dbController.insert(statement, entry);
+
+        close();
     }
 
-    public void executeQuery() {
-        System.out.println(open());
+    private void open() {
 
-        //TODO implement query
-    }
+        try {
+            connection = DriverManager.getConnection(CONNECTION);
+            statement = connection.createStatement();
 
-    /**
-     * Creates the db if not already created
-     * */
-    private void createDB() {
-
-        //TODO implement db creation logic
-
-    }
-
-    /**
-     * Second call after making sure, that the db exists.
-     * */
-    private Statement open() {
-
-        try (Connection connection = DriverManager.getConnection(CONNECTION);
-             Statement statement = connection.createStatement()) {
-
-
-            return statement;
         } catch (SQLException e) {
             //TODO add error logging
-            return null;
+            return;
+        }
+    }
+
+    private void close() {
+
+        try {
+            if (connection != null) {
+                connection.close();
+            }
+
+        } catch (SQLException e) {
+            //TODO add error logging
+            return;
         }
 
 
     }
+
 
 }

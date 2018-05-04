@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>edit misc</message>\r\n<message>edit properties and labels, add UserInterface</message>\r\n<message>edit labels and relationships</message>\r\n<message>adding attributes to classes, adding Enum, Date&\#x0A;</message>\r\n<message>Update test</message>\r\n<message>Initial commit</message>\r\n<message>test</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

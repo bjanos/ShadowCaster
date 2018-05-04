@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from project &apos;DrawDot&apos;&#x0D;&#x0A;- Original project: &apos;DrawDot&apos;&#x0D;&#x0A;- Original element: &apos;DrawDot/src&apos;" description="Delete element" element1="/src" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1517573074008" subPackages="false" version="1.0"/>&#x0A;<refactoring comment="Rename resource &apos;DrawDot/my.uml&apos; to &apos;Model.uml&apos;" description="Rename resource &apos;my.uml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="my.uml" name="Model.uml" stamp="1517573181481" updateReferences="true"/>
+</session>
