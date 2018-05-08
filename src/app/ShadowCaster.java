@@ -1,22 +1,21 @@
 package app;
 
-import db.DataSource;
+import data.DataSource;
 import log.Log;
 
 import static app.SCFunctionTypes.*;
 
 /**
  * Obscures a string or reveals one. Errors are logged.
- * Successful translations are added to shadow_caster.db.
+ * Successful translations are added to shadow_caster.data.
  */
 public class ShadowCaster {
 
     private Log log;
-    private DataSource dataSource;
 
     /**
      * Runs either obscure or reveal. Sends the initial and
-     * translated string to the db.
+     * translated string to the data.
      */
     //TODO come up with a better name for "item"
     public String execute(String item, SCFunctionTypes type) {
@@ -39,7 +38,6 @@ public class ShadowCaster {
         return output;
 
     }
-
 
     /**
      * String obscurer.
@@ -91,14 +89,14 @@ public class ShadowCaster {
     }
 
     /**
-     * Updates the db with the translated entry;
+     * Updates the data with the translated entry;
      *
      * @param input  the input string
      * @param output result of the translation
      * @param type   type of the transaction (reveal or obscure)
      */
     private void addToDB(String input, String output, SCFunctionTypes type) {
-        dataSource = new DataSource();
+        var dataSource = new DataSource();
         dataSource.addEntry(input, output, type);
     }
 

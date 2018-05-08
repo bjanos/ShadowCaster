@@ -173,11 +173,11 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8Hen8E-iEeiiwuYtENy6cg" name="main : Main [1]" width="10" height="4" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_8Hen8E-iEeiiwuYtENy6cg" name="main : main.Main [1]" width="10" height="4" resizeKind="NSEW">
       <target xmi:type="uml:Lifeline" href="my.uml#_7ZgHoE-iEeiiwuYtENy6cg"/>
       <semanticElements xmi:type="uml:Lifeline" href="my.uml#_7ZgHoE-iEeiiwuYtENy6cg"/>
       <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_8ID2wE-iEeiiwuYtENy6cg" x="50" y="50" height="40" width="100"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_8HpAAE-iEeiiwuYtENy6cg" name="Main" outgoingEdges="_BQ2gEE-kEeiiwuYtENy6cg" width="1" height="40" resizeKind="NSEW">
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_8HpAAE-iEeiiwuYtENy6cg" name="main.Main" outgoingEdges="_BQ2gEE-kEeiiwuYtENy6cg" width="1" height="40" resizeKind="NSEW">
         <target xmi:type="uml:Lifeline" href="my.uml#_7ZgHoE-iEeiiwuYtENy6cg"/>
         <semanticElements xmi:type="uml:Lifeline" href="my.uml#_7ZgHoE-iEeiiwuYtENy6cg"/>
         <ownedStyle xmi:type="diagram:Square" xmi:id="_8HpAAU-iEeiiwuYtENy6cg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="114,159,207" labelPosition="node" width="1" height="40">

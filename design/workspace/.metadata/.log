@@ -201,9 +201,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:06.013
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -395,9 +395,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:09.685
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -491,9 +491,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-02-02 11:51:09.692
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif".
@@ -591,9 +591,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:09.695
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -688,9 +688,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.565
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -784,9 +784,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-02-02 11:51:26.568
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif".
@@ -884,9 +884,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.570
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -981,9 +981,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.574
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -1077,9 +1077,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-02-02 11:51:26.576
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif".
@@ -1177,9 +1177,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.584
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -1274,9 +1274,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.588
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -1370,9 +1370,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-02-02 11:51:26.592
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -1470,9 +1470,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-02-02 11:51:26.595
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -1567,9 +1567,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SESSION 2018-05-04 15:52:36.513 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_112
@@ -1621,9 +1621,9 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.707
 !MESSAGE The project description file (.project) for 'DrawDot' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.707
@@ -1668,9 +1668,9 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.708
 !MESSAGE The project description file (.project) for 'GradeBook' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.708
@@ -1715,9 +1715,9 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.708
 !MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 !SUBENTRY 1 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.708
@@ -1762,9 +1762,9 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 2 org.eclipse.core.resources 4 567 2018-05-04 15:52:53.708
 !MESSAGE The project description file (.project) for 'TravelAgency' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
 
@@ -1957,9 +1957,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-05-04 15:52:57.593
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -2154,9 +2154,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-05-04 15:52:57.598
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -2348,9 +2348,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.resources 4 368 2018-05-04 15:52:59.664
 !MESSAGE Resource '/DrawDot/representations.aird' does not exist.
@@ -2446,9 +2446,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:57:40.422
 !MESSAGE Errors occured during the operation.
@@ -2525,9 +2525,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:57:40.423
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -2601,9 +2601,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:57:48.339
 !MESSAGE Errors occured during the operation.
@@ -2680,9 +2680,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:57:48.339
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -2756,9 +2756,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:17.962
 !MESSAGE Errors occured during the operation.
@@ -2844,9 +2844,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:17.963
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -2929,9 +2929,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:17.963
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -3014,9 +3014,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:48.688
 !MESSAGE Errors occured during the operation.
@@ -3203,9 +3203,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:48.689
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -3389,9 +3389,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:48.690
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -3575,9 +3575,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 15:58:48.691
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -3761,9 +3761,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:34.813
 !MESSAGE Errors occured during the operation.
@@ -3950,9 +3950,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:34.814
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4136,9 +4136,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:34.815
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4322,9 +4322,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:34.816
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4508,9 +4508,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:41.482
 !MESSAGE Errors occured during the operation.
@@ -4587,9 +4587,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:41.483
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4663,9 +4663,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:41.483
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4739,9 +4739,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:04:41.484
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -4815,9 +4815,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:05:41.537
 !MESSAGE Errors occured during the operation.
@@ -5004,9 +5004,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:05:41.538
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5190,9 +5190,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:05:41.539
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5376,9 +5376,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:05:41.540
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5562,9 +5562,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:10:59.588
 !MESSAGE Errors occured during the operation.
@@ -5641,9 +5641,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:10:59.589
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5717,9 +5717,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:10:59.589
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5793,9 +5793,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:10:59.590
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -5869,9 +5869,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:15.870
 !MESSAGE Errors occured during the operation.
@@ -5948,9 +5948,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:15.871
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6024,9 +6024,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:15.871
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6100,9 +6100,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:15.872
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6176,9 +6176,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:20.676
 !MESSAGE Errors occured during the operation.
@@ -6365,9 +6365,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:20.677
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6551,9 +6551,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:20.678
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6737,9 +6737,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:11:20.680
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -6923,9 +6923,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:15.624
 !MESSAGE Errors occured during the operation.
@@ -7002,9 +7002,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:15.624
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7078,9 +7078,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:15.625
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7154,9 +7154,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:15.625
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7230,9 +7230,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:19.322
 !MESSAGE Errors occured during the operation.
@@ -7419,9 +7419,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:19.323
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7605,9 +7605,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:19.324
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7791,9 +7791,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-05-04 16:23:19.325
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -7977,9 +7977,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.ui 4 0 2018-05-04 17:39:18.992
 !MESSAGE Unhandled event loop exception
@@ -8072,6 +8072,6 @@ java.lang.NullPointerException
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)

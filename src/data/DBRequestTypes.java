@@ -1,4 +1,4 @@
-package db;
+package data;
 
 /**
  * Database operation types used to identify request

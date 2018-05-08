@@ -104,9 +104,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:09:10.807
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -201,9 +201,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.egit.ui 2 0 2018-01-14 16:09:12.812
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
@@ -308,9 +308,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:11:28.277
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -412,9 +412,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:11:28.280
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -513,9 +513,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.net 4 0 2018-01-14 16:14:41.574
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
@@ -716,9 +716,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:19:47.931
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -913,9 +913,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:19:47.936
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -1107,9 +1107,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:19:50.786
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -1203,9 +1203,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:19:50.791
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif".
@@ -1303,9 +1303,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:19:50.793
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -1400,9 +1400,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.735
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -1496,9 +1496,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:20:01.737
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif".
@@ -1596,9 +1596,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.739
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -1693,9 +1693,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.741
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -1789,9 +1789,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:20:01.743
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif".
@@ -1889,9 +1889,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.745
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -1986,9 +1986,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.747
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -2082,9 +2082,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:20:01.749
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -2182,9 +2182,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:20:01.751
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -2279,9 +2279,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.egit.ui 2 0 2018-01-14 16:20:04.434
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
@@ -2396,9 +2396,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:21:31.880
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif".
@@ -2510,9 +2510,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:21:31.886
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif
@@ -2621,9 +2621,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:21:34.665
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -2731,9 +2731,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-14 16:21:34.666
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -2845,9 +2845,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-14 16:21:34.668
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -2956,9 +2956,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.net 4 0 2018-01-14 16:36:56.808
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
@@ -3227,9 +3227,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-15 20:34:55.453
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -3424,9 +3424,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:34:55.453
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -3618,9 +3618,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:34:59.297
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -3714,9 +3714,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-15 20:34:59.297
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif".
@@ -3814,9 +3814,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:34:59.297
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -3911,9 +3911,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.518
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -4007,9 +4007,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-15 20:35:10.518
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif".
@@ -4107,9 +4107,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.518
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -4204,9 +4204,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.518
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -4300,9 +4300,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-15 20:35:10.518
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif".
@@ -4400,9 +4400,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.518
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -4497,9 +4497,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.518
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -4593,9 +4593,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-15 20:35:10.534
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -4693,9 +4693,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-15 20:35:10.534
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -4790,9 +4790,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.net 4 0 2018-01-15 20:39:40.217
 !MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
@@ -4993,9 +4993,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 08:55:23.909
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -5190,9 +5190,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:23.913
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -5384,9 +5384,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:27.340
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -5480,9 +5480,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 08:55:27.346
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif".
@@ -5580,9 +5580,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:27.348
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -5677,9 +5677,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.663
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -5773,9 +5773,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 08:55:37.666
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif".
@@ -5873,9 +5873,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.667
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -5970,9 +5970,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.670
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -6066,9 +6066,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 08:55:37.672
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif".
@@ -6166,9 +6166,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.674
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -6263,9 +6263,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.676
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -6359,9 +6359,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 08:55:37.678
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -6459,9 +6459,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 08:55:37.680
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -6556,9 +6556,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.eef.core 4 0 2018-01-16 09:09:32.619
 !MESSAGE An issue has occurred during the evaluation of 'aql:input.executeOperation(self, 'platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@extensions.0/@categories.0/@groups.0/@controls.0/@ifs.5/@widget/@onClickOperation')'.
@@ -6780,9 +6780,9 @@ org.eclipse.acceleo.query.runtime.AcceleoQueryEvaluationException: executeOperat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 Caused by: org.eclipse.core.runtime.OperationCanceledException
 	at org.eclipse.sirius.ui.properties.internal.dialog.DialogTask.lambda$0(DialogTask.java:128)
 	at java.util.Optional.ifPresent(Optional.java:159)
@@ -6971,9 +6971,9 @@ org.eclipse.acceleo.query.runtime.AcceleoQueryEvaluationException: executeOperat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 Caused by: org.eclipse.core.runtime.OperationCanceledException
 	at org.eclipse.sirius.ui.properties.internal.dialog.DialogTask.lambda$0(DialogTask.java:128)
 	at java.util.Optional.ifPresent(Optional.java:159)
@@ -7055,9 +7055,9 @@ org.eclipse.acceleo.query.runtime.AcceleoQueryEvaluationException: executeOperat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 Caused by: org.eclipse.core.runtime.OperationCanceledException
 	at org.eclipse.sirius.ui.properties.internal.dialog.DialogTask.lambda$0(DialogTask.java:128)
 	at java.util.Optional.ifPresent(Optional.java:159)
@@ -7139,9 +7139,9 @@ org.eclipse.acceleo.query.runtime.AcceleoQueryEvaluationException: executeOperat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 Caused by: org.eclipse.core.runtime.OperationCanceledException
 	at org.eclipse.sirius.ui.properties.internal.dialog.DialogTask.lambda$0(DialogTask.java:128)
 	at java.util.Optional.ifPresent(Optional.java:159)
@@ -7269,9 +7269,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 09:47:18.070
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif".
@@ -7383,9 +7383,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 09:47:18.072
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif
@@ -7494,9 +7494,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.tm.
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 09:47:20.650
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -7604,9 +7604,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-16 09:47:20.652
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -7718,9 +7718,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-16 09:47:20.653
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -7829,9 +7829,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.eef.core 4 0 2018-01-16 11:37:02.846
 !MESSAGE An issue has occurred during the evaluation of 'aql:input.executeOperation(self, 'platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@extensions.0/@categories.0/@groups.1/@controls.0/@onClickOperation')'.
@@ -7893,9 +7893,9 @@ org.eclipse.acceleo.query.runtime.AcceleoQueryEvaluationException: executeOperat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 Caused by: org.eclipse.core.runtime.OperationCanceledException
 	at org.eclipse.sirius.ui.properties.internal.dialog.DialogTask.lambda$0(DialogTask.java:128)
 	at java.util.Optional.ifPresent(Optional.java:159)
@@ -8112,9 +8112,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-17 12:22:11.809
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif".
@@ -8309,9 +8309,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:11.813
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif
@@ -8503,9 +8503,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:15.573
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -8599,9 +8599,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-17 12:22:15.578
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif".
@@ -8699,9 +8699,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:15.582
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.mylyn.tasks.ui/icons/eview16/task-list.gif
@@ -8796,9 +8796,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.myl
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.462
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -8892,9 +8892,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-17 12:22:28.465
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif".
@@ -8992,9 +8992,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.468
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.server.ui/icons/cview16/servers_view.gif
@@ -9089,9 +9089,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.471
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -9185,9 +9185,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-17 12:22:28.473
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif".
@@ -9285,9 +9285,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.475
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.datatools.connectivity.ui.dse/icons/full/cview16/enterprise_explorer.gif
@@ -9382,9 +9382,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.dat
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.477
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -9478,9 +9478,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.jface 4 0 2018-01-17 12:22:28.480
 !MESSAGE Unable to resolve plug-in "platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif".
@@ -9578,9 +9578,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.core.runtime 4 0 2018-01-17 12:22:28.483
 !MESSAGE Invalid input url:platform:/plugin/org.eclipse.wst.common.snippets/icons/snippets_view.gif
@@ -9675,9 +9675,9 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.wst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.ui 4 0 2018-01-17 15:19:29.614
 !MESSAGE Unhandled event loop exception
@@ -9714,9 +9714,9 @@ java.lang.NullPointerException
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:12.144
 !MESSAGE Errors occured during the operation.
@@ -9781,9 +9781,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:12.144
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -9845,9 +9845,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:12.145
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -9909,9 +9909,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:12.145
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -9973,9 +9973,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:14.942
 !MESSAGE Errors occured during the operation.
@@ -10040,9 +10040,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:14.943
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10104,9 +10104,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:14.943
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10168,9 +10168,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:14.944
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10232,9 +10232,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:43.973
 !MESSAGE Errors occured during the operation.
@@ -10299,9 +10299,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:43.974
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10363,9 +10363,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:43.974
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10427,9 +10427,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:56:43.975
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10491,9 +10491,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:09.822
 !MESSAGE Errors occured during the operation.
@@ -10558,9 +10558,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:09.823
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10622,9 +10622,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:09.823
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10686,9 +10686,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:09.824
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10750,9 +10750,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 
 !ENTRY org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:18.913
 !MESSAGE Errors occured during the operation.
@@ -10817,9 +10817,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:18.913
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10881,9 +10881,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:18.914
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -10945,9 +10945,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SUBENTRY 1 org.eclipse.sirius.ui.properties 4 0 2018-01-17 15:57:18.914
 !MESSAGE Unknown service "getClientDependencies"
 !STACK 0
@@ -11009,9 +11009,9 @@ org.eclipse.sirius.common.tools.api.interpreter.EvaluationException: Unknown ser
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)
 !SESSION 2018-02-02 11:50:52.888 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_112
@@ -11208,6 +11208,6 @@ java.io.IOException: Unable to resolve plug-in "platform:/plugin/org.eclipse.jst
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.main.Main.invokeFramework(main.Main.java:653)
+	at org.eclipse.equinox.launcher.main.Main.basicRun(main.Main.java:590)
+	at org.eclipse.equinox.launcher.main.Main.run(main.Main.java:1499)

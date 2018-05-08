@@ -1,4 +1,4 @@
-package db;
+package data;
 
 /**
  * Entity class for the obscure table

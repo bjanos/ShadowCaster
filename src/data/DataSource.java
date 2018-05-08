@@ -1,28 +1,40 @@
-package db;
+package data;
 
 import app.SCFunctionTypes;
 
 import java.sql.*;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 /**
- * DB Manager, contacts the dbController to initiate db changes
+ * DB Manager, contacts the dbController to initiate data changes
  */
 public class DataSource {
 
+    //TODO move db to Default/ShadowCaster folder
+
     private static final String DB_NAME = "shadow_caster.db";
-    private static final String CONNECTION = "jdbc:sqlite:src\\db\\" + DB_NAME;
+    private static final String CONNECTION = "jdbc:sqlite:src\\data\\" + DB_NAME;
 
-    //TODO add db constants
-    Connection connection;
-    Statement statement;
-    private DBController dbController;
+    //TODO add data constants
+    private Connection connection;
+    private Statement statement;
+    private DBManager dbController;
 
+    /**
+     *
+     *
+     * */
     public void addEntry(String input, String output, SCFunctionTypes type) {
+        var calendar = Calendar.getInstance().getTime();
+        var sdf = new SimpleDateFormat("yyyy-MM-dd_HH:mm");
+
         Entry entry = new Entry();
-        dbController = new DBController();
+        dbController = new DBManager();
         entry.setType(type.toString());
         entry.setInputText(input);
         entry.setOutputText(output);
+        entry.setDate(sdf.format(calendar));
 
         open();
 
@@ -31,9 +43,6 @@ public class DataSource {
         } catch (SQLException e) {
             //TODO add error to logs
         }
-
-        //TODO add date to the entry
-
 
         dbController.insert(statement, entry);
 

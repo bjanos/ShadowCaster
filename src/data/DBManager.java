@@ -1,13 +1,13 @@
-package db;
+package data;
 
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
 /**
- * Contains and manages queries to the db.
+ * Contains and manages queries to the data.
  */
-class DBController {
+class DBManager {
 
     //TODO add query constants
 
@@ -29,7 +29,7 @@ class DBController {
             "INSERT INTO " + TABLE_OBSCURE
                     + " (" + COLUMN_OBSCURE_TYPE + ", "
                     + COLUMN_OBSCURE_INPUT_TEXT + ", "
-                    + COLUMN_OBSCURE_OUTPUT_TEXT + ") "
+                    + COLUMN_OBSCURE_DATE + ") "
                     + "VALUES (";
     private static final String INSERT_NEW_ROW_END = ")";
 
@@ -40,9 +40,7 @@ class DBController {
         StringBuilder stringBuilder = new StringBuilder(INSERT_NEW_ROW_START);
         stringBuilder.append("'").append(entry.getType()).append("'").append(", ");
         stringBuilder.append("'").append(entry.getInputText()).append("'").append(", ");
-        stringBuilder.append("'").append(entry.getOutputText()).append("'").append(INSERT_NEW_ROW_END);
-
-        System.out.println(stringBuilder);
+        stringBuilder.append("'").append(entry.getDate()).append("'").append(INSERT_NEW_ROW_END);
 
         try {
             statement.execute(stringBuilder.toString());
@@ -51,14 +49,12 @@ class DBController {
             //TODO add error to logs
         }
 
-
     }
 
     /**
      * Returns entries from the obscure table
      */
     private List<Entry> selectEntries(Statement statement) {
-
 
         return null;
     }
