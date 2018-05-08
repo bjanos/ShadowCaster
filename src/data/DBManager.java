@@ -47,7 +47,7 @@ public class DBManager {
     }
 
     /**
-     * Builds
+     * Builds an entry for the db.
      * */
     private Entry constructEntry(String input, String output, SCFunctionTypes type) {
         var calendar = Calendar.getInstance().getTime();
