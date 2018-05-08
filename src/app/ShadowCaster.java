@@ -1,5 +1,6 @@
 package app;
 
+import data.DBManager;
 import data.DataSource;
 import log.Log;
 
@@ -96,7 +97,7 @@ public class ShadowCaster {
      * @param type   type of the transaction (reveal or obscure)
      */
     private void addToDB(String input, String output, SCFunctionTypes type) {
-        var dataSource = new DataSource();
+        var dataSource = new DBManager();
         dataSource.addEntry(input, output, type);
     }
 

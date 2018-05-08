@@ -1,15 +1,18 @@
 package data;
 
+import app.SCFunctionTypes;
+
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 
 /**
- * Contains and manages queries to the data.
+ * Contains and manages queries to the database.
  */
-class DBManager {
-
-    //TODO add query constants
+public class DBManager {
 
     private static final String TABLE_OBSCURE = "transactions";
     private static final String COLUMN_OBSCURE_ID = "_id";
@@ -33,16 +36,36 @@ class DBManager {
                     + "VALUES (";
     private static final String INSERT_NEW_ROW_END = ")";
 
-    private Statement statement;
+    /**
+     * Interface to clients. Parameters are used to build an entry which is then added
+     * to the database.
+     */
+    public void addEntry(String input, String output, SCFunctionTypes type) {
 
-    public void insert(Statement statement, Entry entry) {
+        insert(constructEntry(input, output, type));
+
+    }
+
+    /**
+     * Builds
+     * */
+    private Entry constructEntry(String input, String output, SCFunctionTypes type) {
+        var calendar = Calendar.getInstance().getTime();
+        var sdf = new SimpleDateFormat("yyyy-MM-dd_HH:mm");
+
+        return new Entry(type.toString(), input, output, sdf.format(calendar));
+    }
+
+    private void insert(Entry entry) {
 
         StringBuilder stringBuilder = new StringBuilder(INSERT_NEW_ROW_START);
         stringBuilder.append("'").append(entry.getType()).append("'").append(", ");
         stringBuilder.append("'").append(entry.getInputText()).append("'").append(", ");
         stringBuilder.append("'").append(entry.getDate()).append("'").append(INSERT_NEW_ROW_END);
 
-        try {
+        try (Connection connection = new DataSource().open();
+             Statement statement = connection.createStatement()
+        ) {
             statement.execute(stringBuilder.toString());
         } catch (SQLException e) {
 

@@ -12,6 +12,13 @@ class Entry {
     private String outputText;
     private String Date;
 
+    public Entry(String type, String inputText, String outputText, String date) {
+        this.type = type;
+        this.inputText = inputText;
+        this.outputText = outputText;
+        Date = date;
+    }
+
     public int getId() {
         return id;
     }
@@ -20,15 +27,11 @@ class Entry {
         return type;
     }
 
-    public String getInputText() {
+    String getInputText() {
         return inputText;
     }
 
-    public String getOutputText() {
-        return outputText;
-    }
-
-    public String getDate() {
+    String getDate() {
         return Date;
     }
 
