@@ -16,7 +16,7 @@ public class Run extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         ResourceBundle resourceBundle = ResourceBundle.getBundle("gui/res/Text");
-        Parent root = FXMLLoader.load(getClass().getResource("gui/layout/ShadowCaster.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("gui/layout/ShadowCaster.fxml"), resourceBundle);
         Scene scene = new Scene(root);
 
         scene.getStylesheets().add("gui/style/style.css");
