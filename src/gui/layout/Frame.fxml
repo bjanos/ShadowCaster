@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefWidth="400.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.TransactionsController">
+    <top>
+        <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+    </center>
+    <bottom>
+        <GridPane>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <HBox>
+                    <children>
+                        <Label fx:id="footerMsgLabel" text="%footerMessageLabel" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_RIGHT" GridPane.columnIndex="1">
+                    <children>
+                        <Label fx:id="footerTimeLabel" text="%footerTimeLabel" />
+                    </children>
+                </HBox>
+            </children>
+        </GridPane>
+    </bottom>
+    <padding>
+        <Insets left="16.0" right="16.0" top="16.0" />
+    </padding>
+</BorderPane>

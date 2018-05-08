@@ -11,7 +11,7 @@ class DBManager {
 
     //TODO add query constants
 
-    private static final String TABLE_OBSCURE = "obscure";
+    private static final String TABLE_OBSCURE = "transactions";
     private static final String COLUMN_OBSCURE_ID = "_id";
     private static final String COLUMN_OBSCURE_TYPE = "type";
     private static final String COLUMN_OBSCURE_INPUT_TEXT = "inputText";

@@ -53,7 +53,6 @@ public class DataSource {
 
         try {
             connection = DriverManager.getConnection(CONNECTION);
-            statement = connection.createStatement();
 
         } catch (SQLException e) {
             //TODO add error logging

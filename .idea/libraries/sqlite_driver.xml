@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sqlite driver">
+    <CLASSES>
+      <root url="file://$USER_HOME$/DataBase/sqlite driver" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/DataBase/sqlite driver" recursive="false" />
+  </library>
+</component>

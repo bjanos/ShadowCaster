@@ -2,6 +2,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,8 +17,15 @@ public class Run extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("gui/res/Text");
-        Parent root = FXMLLoader.load(getClass().getResource("gui/layout/ShadowCaster.fxml"), resourceBundle);
+        ResourceBundle mainResource = ResourceBundle.getBundle("gui/res/Main");
+        ResourceBundle transactionsResource = ResourceBundle.getBundle("gui/res/Transactions");
+        VBox transactions = FXMLLoader.load(getClass().getResource("gui/layout/Transactions.fxml"), transactionsResource);
+
+        Parent root = FXMLLoader.load(getClass().getResource("gui/layout/Frame.fxml"), mainResource);
+
+        BorderPane borderPane = (BorderPane) root;
+        borderPane.setCenter(transactions);
+
         Scene scene = new Scene(root);
 
         scene.getStylesheets().add("gui/style/style.css");
