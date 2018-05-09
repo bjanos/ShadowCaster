@@ -8,9 +8,31 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane prefWidth="400.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.TransactionsController">
+<BorderPane minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.TransactionsController">
     <top>
-        <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
+      <VBox>
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                    <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
+               </children>
+            </HBox>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="%menu1">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="%menu1menuItem1" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="%menu2">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="%menu2menuItem1" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </VBox>
     </top>
     <center>
     </center>

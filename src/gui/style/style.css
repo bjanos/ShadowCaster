@@ -1,19 +1,52 @@
 * {
-    -fx-font-family: "Arial";
+    -fx-font-family: "Agency FB";
 }
 
 .frame {
-    -fx-background-color: #9fffaf;
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-font-size: 14pt;
 }
 
 .title {
-    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+    -fx-font-size: 18pt;
 }
 
+.menu-bar {
+    -fx-background-color: #ffffff;
+}
+
+.startBtn {
+    -fx-pref-width: 80;
+    -fx-pref-height: 80;
+}
+
+
+.text-area .content {
+    -fx-background-color: #292d31;
+}
+
+.text-area {
+    -fx-text-fill: #40da0b;
+    -fx-font-family: Consolas;
+    -fx-font-size: 13pt;
+}
+
+
 .button {
- -fx-background-color: #31dcff;
+ -fx-background-color: #e8e8e8;
+    -fx-font-size: 14pt;
+}
+
+.startBtn {
+    -fx-pref-width: 100;
+    -fx-pref-height: 80;
+    -fx-font-weight: 800;
 }
 
 .button:hover {
-    -fx-background-color: #26aeff;
+    -fx-background-color: #cfcfcf;
 }

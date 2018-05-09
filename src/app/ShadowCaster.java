@@ -51,7 +51,7 @@ public class ShadowCaster {
 
         for (char c : chars) {
 
-            char newC = (char) (c + 6);
+            char newC = (char) ((c + 6));
             builder.append(newC);
 
         }
@@ -80,7 +80,7 @@ public class ShadowCaster {
 
         for (char c : chars) {
 
-            char newC = (char) (c - 6);
+            char newC = (char) ((c - 6));
             builder.append(newC);
         }
 

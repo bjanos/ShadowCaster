@@ -4,9 +4,10 @@ import app.SCFunctionTypes;
 import app.ShadowCaster;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.input.KeyEvent;
+
 
 public class TransactionsController {
 
@@ -21,22 +22,15 @@ public class TransactionsController {
     @FXML
     private TextArea inputTxtArea;
 
-    @FXML
-    private Button revBtn;
-
-    @FXML
-    private Label footerTimeLabel;
-
-    @FXML
-    private Button obscBtn;
-
-    @FXML
-    private Button transactionBtn;
-
     public void initialize() {
         shadowCaster = new ShadowCaster();
     }
 
+    @FXML
+    void keyHandle(KeyEvent event) {
+
+        System.out.println("Pressed " + event.getText());
+    }
 
     @FXML
     void showTransactions(ActionEvent event) {
