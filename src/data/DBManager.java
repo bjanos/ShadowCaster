@@ -11,6 +11,8 @@ import java.util.List;
 
 /**
  * Contains and manages queries to the database.
+ *
+ * @author Janos Benyovszki
  */
 public class DBManager {
 
@@ -20,6 +22,8 @@ public class DBManager {
     private static final String COLUMN_OBSCURE_INPUT_TEXT = "inputText";
     private static final String COLUMN_OBSCURE_OUTPUT_TEXT = "outputText";
     private static final String COLUMN_OBSCURE_DATE = "date";
+
+    //DB Transactions
 
     private static final String CREATE_TABLE_OBSCURE =
             "CREATE TABLE IF NOT EXISTS " + TABLE_OBSCURE + "("
@@ -34,7 +38,10 @@ public class DBManager {
                     + COLUMN_OBSCURE_INPUT_TEXT + ", "
                     + COLUMN_OBSCURE_DATE + ") "
                     + "VALUES (";
+
     private static final String INSERT_NEW_ROW_END = ")";
+
+    private static final String SELECT_ALL = "SELECT * FROM " + TABLE_OBSCURE;
 
     /**
      * Interface to clients. Parameters are used to build an entry which is then added
@@ -75,9 +82,17 @@ public class DBManager {
     }
 
     /**
-     * Returns entries from the obscure table
+     * Returns all entries from the obscure table
      */
-    private List<Entry> selectEntries(Statement statement) {
+    private List<Entry> selectAllEntries() {
+
+        try (Connection connection = new DataSource().open();
+             Statement statement = connection.createStatement()){
+            statement.execute(SELECT_ALL);
+
+        } catch (SQLException e) {}
+
+        //TODO add error to Logs
 
         return null;
     }

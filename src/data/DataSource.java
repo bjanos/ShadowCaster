@@ -4,6 +4,8 @@ import java.sql.*;
 
 /**
  * Represents a connection to the database
+ *
+ * @author Janos Benyovszki
  */
 class DataSource {
 

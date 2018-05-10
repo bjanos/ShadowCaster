@@ -2,6 +2,8 @@ package data;
 
 /**
  * Entity class for the obscure table
+ *
+ * @author Janos Benyovszki
  */
 class Entry {
 

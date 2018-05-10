@@ -42,7 +42,7 @@
 }
 
 .startBtn {
-    -fx-pref-width: 100;
+    -fx-pref-width: 150;
     -fx-pref-height: 80;
     -fx-font-weight: 800;
 }

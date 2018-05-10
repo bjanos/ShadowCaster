@@ -8,7 +8,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.KeyEvent;
 
-
+/**
+ * @author Janos Benyovszki
+ */
 public class TransactionsController {
 
     private ShadowCaster shadowCaster;

@@ -8,6 +8,8 @@ import static app.SCFunctionTypes.*;
 /**
  * Obscures a string or reveals one. Errors are logged.
  * Successful translations are added to shadow_caster.data.
+ *
+ * @author Janos Benyovszki
  */
 public class ShadowCaster {
 
@@ -21,11 +23,18 @@ public class ShadowCaster {
     public String execute(String item, SCFunctionTypes type) {
         String output = null;
 
+        /*
+        * So that db entries are not made when there is nothing to translate.
+        * Also calculations do not run unnecessarily.
+        * */
+        if (item == null || item.equals("")) {
+            return "";
+        }
+
         switch (type) {
             case OBSCURE:
                 output = obscure(item);
                 addToDB(item, output, OBSCURE);
-
                 break;
 
             case REVEAL:

@@ -9,7 +9,9 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-
+/**
+ * @author Janos Benyovszki
+ * */
 public class Run extends Application implements LayoutPoolMap {
 
     public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class Run extends Application implements LayoutPoolMap {
         Parent root = layoutManager.load(FRAME_LOCATION, FRAME_RESOURCE_LOCATION);
 
         BorderPane borderPane = (BorderPane) root;
-        borderPane.setCenter(layoutManager.load(TRANSACTION_LOCATION, TRANSACTION_RESOURCE_LOCATION));
+        borderPane.setCenter(layoutManager.load(START_LOCATION, START_RESOURCE_LOCATION));
 
         Scene scene = new Scene(root);
         scene.getStylesheets().add("gui/style/style.css");
@@ -31,7 +33,6 @@ public class Run extends Application implements LayoutPoolMap {
         primaryStage.setTitle("ShadowCaster");
         primaryStage.getIcons().add(new Image("gui/res/img/icon.png"));
         primaryStage.setScene(scene);
-        //primaryStage.setResizable(false);
         primaryStage.show();
 
     }

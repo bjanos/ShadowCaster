@@ -8,7 +8,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
+/**
+ * @author Janos Benyovszki
+ */
 public class LayoutManager {
+
+    //TODO enum class instead of Strings - multiple strings can be mixed now
 
     private static final String FRAME_LOCATION = "Frame.fxml";
     private static final String FRAME_RESOURCE_LOCATION = "gui/res/Frame";
@@ -19,41 +24,6 @@ public class LayoutManager {
     private static final String DATA_LOCATION = "Data.fxml";
 
     private ArrayList<Pane> panePool = new ArrayList<>();
-
-    public LayoutManager() {
-/*
-        BorderPane frameLayout = (BorderPane) load(FRAME_LOCATION, FRAME_RESOURCE_LOCATION);
-        panePool.add(frameLayout);
-
-        GridPane startLayout = (GridPane) load(START_LOCATION, START_RESOURCE_LOCATION);
-        panePool.add(startLayout);
-
-        VBox transactionsLayout = (VBox) load(TRANSACTION_LOCATION, TRANSACTION_RESOURCE_LOCATION);
-        panePool.add(transactionsLayout);
-
-
-        AnchorPane dataLayout = (AnchorPane) load(DATA_LOCATION);
-        panePool.add(dataLayout);*/
-
-    }
-
-    public ArrayList<Pane> getPanePool() {
-        return panePool;
-    }
-
-
-
-    public Pane load(String paneName) {
-        try {
-            return (Pane) FXMLLoader.load(getClass().getResource(paneName));
-
-        } catch (IOException e) {
-            System.out.println("layout load error");
-            e.printStackTrace();
-            return null;
-        }
-
-    }
 
     public Pane load(String paneName, String paneResLoc) {
 

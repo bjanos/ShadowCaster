@@ -21,5 +21,6 @@ public interface LayoutPoolMap {
     static final String START_LOCATION = "Start.fxml";
     static final String START_RESOURCE_LOCATION = "gui/res/Start";
     static final String DATA_LOCATION = "Data.fxml";
+    static final String DATA_RESOURCE_LOCATION = "gui/res/Data";
 
 }

@@ -3,6 +3,8 @@ package log;
 /**
  * Types of log messages used in sending requests to Log
  * and in writing them to file.
+ *
+ * @author Janos Benyovszki
  */
 enum LogTypes {
     ERROR("Error"),

@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import javafx.geometry.*?>
 <?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.TransactionsController">
+<BorderPane minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.FrameController">
     <top>
-      <VBox>
-         <children>
-            <HBox alignment="CENTER">
-               <children>
-                    <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
-               </children>
-            </HBox>
-            <MenuBar>
-              <menus>
-                <Menu mnemonicParsing="false" text="%menu1">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="%menu1menuItem1" />
-                  </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="%menu2">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="%menu2menuItem1" />
-                  </items>
-                </Menu>
-              </menus>
-            </MenuBar>
-         </children>
-      </VBox>
+        <VBox>
+            <children>
+                <MenuBar>
+                    <menus>
+                        <Menu mnemonicParsing="false" text="%menu1">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#exit" text="%menu1menuItem1" />
+                            </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%menu2">
+                            <items>
+                                <MenuItem mnemonicParsing="false" text="%menu2menuItem1" />
+                                <MenuItem mnemonicParsing="false" text="%menu2menuItem2" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+                <HBox alignment="CENTER">
+                    <children>
+                        <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
     </top>
     <center>
     </center>

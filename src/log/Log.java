@@ -1,5 +1,8 @@
 package log;
 
+/**
+ * @author Janos Benyovszki
+ * */
 public class Log {
 
     //TODO implement
