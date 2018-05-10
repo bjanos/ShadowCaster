@@ -24,11 +24,7 @@
                         </Menu>
                     </menus>
                 </MenuBar>
-                <HBox alignment="CENTER">
-                    <children>
-                        <Label styleClass="title" text="%title" BorderPane.alignment="CENTER" />
-                    </children>
-                </HBox>
+
             </children>
         </VBox>
     </top>

@@ -30,7 +30,7 @@ public class Run extends Application implements LayoutPoolMap {
         Scene scene = new Scene(root);
         scene.getStylesheets().add("gui/style/style.css");
 
-        primaryStage.setTitle("ShadowCaster");
+        primaryStage.setTitle("Shadow Caster");
         primaryStage.getIcons().add(new Image("gui/res/img/icon.png"));
         primaryStage.setScene(scene);
         primaryStage.show();

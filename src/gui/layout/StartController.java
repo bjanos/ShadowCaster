@@ -3,7 +3,6 @@ package gui.layout;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 
@@ -46,10 +45,16 @@ public class StartController implements LayoutPoolMap {
      */
     private void setCenter(Event event, String pane, String resource) {
         var screenToLoad = layoutManager.load(pane, resource);
-        Scene scene = ((Button) event.getSource()).getScene();
         BorderPane borderPane = (BorderPane) ((Button) event.getSource()).getScene().getRoot();
-
         borderPane.setCenter(screenToLoad);
+
+        /*
+        * Need to remove stylesheet first and add it again, otherwise
+        * the custom color of the textarea text is considered only
+        * when out of focus. Weird...
+        * */
+        borderPane.getScene().getStylesheets().removeAll();
+        borderPane.getScene().getStylesheets().add("gui/style/style.css");
 
 
     }
