@@ -1,4 +1,4 @@
-package data;
+package main.java.database;
 
 import main.java.app.SCFunctionTypes;
 

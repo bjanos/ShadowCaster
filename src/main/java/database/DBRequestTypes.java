@@ -1,4 +1,4 @@
-package data;
+package main.java.database;
 
 /**
  * Database operation types used to identify request

@@ -1,6 +1,8 @@
-package data;
+package main.java.database;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 /**
  * Represents a connection to the database
@@ -12,7 +14,7 @@ class DataSource {
     //TODO move db to Default/ShadowCaster folder
 
     private static final String DB_NAME = "shadow_caster.db";
-    private static final String CONNECTION = "jdbc:sqlite:src\\data\\" + DB_NAME;
+    private static final String CONNECTION = "jdbc:sqlite:src\\main\\java\\database\\" + DB_NAME;
 
     Connection open() {
 
