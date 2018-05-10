@@ -5,6 +5,7 @@ import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
+import main.java.log.Log;
 
 /**
  * @author Janos Benyovszki
@@ -17,12 +18,12 @@ public class FrameController implements LayoutPoolMap {
     private LayoutManager layoutManager = new LayoutManager();
 
     @FXML
-    void showTransactions(ActionEvent event) {
+    private void showTransactions(ActionEvent event) {
         setCenter(event, TRANSACTION_LOCATION, TRANSACTION_RESOURCE_LOCATION);
     }
 
     @FXML
-    void showData(ActionEvent event) {
+    private void showData(ActionEvent event) {
 
         setCenter(event, DATA_LOCATION, DATA_RESOURCE_LOCATION);
     }
@@ -58,7 +59,13 @@ public class FrameController implements LayoutPoolMap {
     }
 
     @FXML
-    void exit(ActionEvent event) {
+    private void openLogLocation() {
+        Log.openLogLocation();
+    }
+
+
+    @FXML
+    private void exit(ActionEvent event) {
         System.exit(0);
 
     }

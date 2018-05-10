@@ -30,7 +30,7 @@
 
                         <Menu mnemonicParsing="false" text="%menu3">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="%menu3menuItem1" />
+                                <MenuItem mnemonicParsing="false" onAction="#openLogLocation" text="%menu3menuItem1" />
                                 <MenuItem mnemonicParsing="false" text="%menu3menuItem2" />
                             </items>
                         </Menu>

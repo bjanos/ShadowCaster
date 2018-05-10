@@ -16,4 +16,15 @@ public class Log {
     public void write(String toLog){};
 
 
+
+    public static void openLogLocation() {
+
+
+        try {
+            Runtime.getRuntime().exec("explorer.exe /select, " + LOG_LOCATION);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }
