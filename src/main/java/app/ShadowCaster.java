@@ -1,9 +1,9 @@
-package app;
+package main.java.app;
 
-import data.DBManager;
-import log.Log;
+import main.java.database.DBManager;
+import main.java.log.Log;
 
-import static app.SCFunctionTypes.*;
+import static main.java.app.SCFunctionTypes.*;
 
 /**
  * Obscures a string or reveals one. Errors are logged.

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.input.*?>
 <?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.layout.FrameController">
+<BorderPane fx:id="frame" minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.gui.layout.FrameController">
     <top>
         <VBox>
             <children>
@@ -18,8 +19,19 @@
                         </Menu>
                         <Menu mnemonicParsing="false" text="%menu2">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="%menu2menuItem1" />
-                                <MenuItem mnemonicParsing="false" text="%menu2menuItem2" />
+                        <Menu mnemonicParsing="false" text="%menu2menuItem1">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#showTransactions" text="%menu2menuItem1Item1" />
+                              <MenuItem mnemonicParsing="false" onAction="#showData" text="%menu2menuItem1Item2" />
+                          </items>
+                        </Menu>
+                            </items>
+                        </Menu>
+
+                        <Menu mnemonicParsing="false" text="%menu3">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#openLogLocation" text="%menu3menuItem1" />
+                                <MenuItem mnemonicParsing="false" text="%menu3menuItem2" />
                             </items>
                         </Menu>
                     </menus>

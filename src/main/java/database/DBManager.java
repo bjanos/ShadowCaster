@@ -1,6 +1,6 @@
-package data;
+package main.java.database;
 
-import app.SCFunctionTypes;
+import main.java.app.SCFunctionTypes;
 
 import java.sql.Connection;
 import java.sql.SQLException;

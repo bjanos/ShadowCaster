@@ -1,7 +1,7 @@
-package gui.layout;
+package main.java.gui.layout;
 
-import app.SCFunctionTypes;
-import app.ShadowCaster;
+import main.java.app.SCFunctionTypes;
+import main.java.app.ShadowCaster;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -16,9 +16,6 @@ public class TransactionsController {
     private ShadowCaster shadowCaster;
 
     @FXML
-    private Label footerMsgLabel;
-
-    @FXML
     private TextArea outputTxtField;
 
     @FXML
@@ -29,22 +26,18 @@ public class TransactionsController {
     }
 
     @FXML
-    void keyHandle(KeyEvent event) {
+    private void keyHandle(KeyEvent event) {
 
         System.out.println("Pressed " + event.getText());
     }
 
     @FXML
-    void showTransactions(ActionEvent event) {
-    }
-
-    @FXML
-    void obscure() {
+    private void obscure() {
         outputTxtField.setText(shadowCaster.execute(inputTxtArea.getText(), SCFunctionTypes.OBSCURE));
     }
 
     @FXML
-    void reveal() {
+    private void reveal() {
         outputTxtField.setText(shadowCaster.execute(inputTxtArea.getText(), SCFunctionTypes.REVEAL));
     }
 
