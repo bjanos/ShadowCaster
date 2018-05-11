@@ -13,7 +13,7 @@ class DataSource {
 
     //TODO create ShadowCaster folder
 
-    public static final String DB_LOCATION = System.getProperty("user.home") + "\\AppData\\Local\\ShadowCaster\\db\\";
+    static final String DB_LOCATION = System.getProperty("user.home") + "\\AppData\\Local\\ShadowCaster\\db\\";
     private static final String DB_NAME = "shadow_caster.db";
     private static final String CONNECTION = "jdbc:sqlite:" + DB_LOCATION + DB_NAME;
 

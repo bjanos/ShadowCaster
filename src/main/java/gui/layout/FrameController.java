@@ -7,6 +7,8 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import log.Log;
 
+import java.util.Objects;
+
 /**
  * @author Janos Benyovszki
  */
@@ -54,7 +56,10 @@ public class FrameController implements LayoutPoolMap {
          * when out of focus. Weird...
          * */
         frame.getScene().getStylesheets().removeAll();
-        frame.getScene().getStylesheets().add("main/java/gui/style/style.css");
+        var cssPath = Objects.requireNonNull(getClass().getClassLoader()
+                .getResource("style/style.css"));
+        frame.getScene().getStylesheets().add(cssPath.toString());
+
 
     }
 

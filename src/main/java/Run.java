@@ -1,3 +1,5 @@
+
+import database.DBManager;
 import gui.layout.LayoutManager;
 import gui.layout.LayoutPoolMap;
 import javafx.application.Application;
@@ -7,6 +9,10 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Objects;
 
 /**
@@ -16,6 +22,8 @@ public class Run extends Application implements LayoutPoolMap {
 
     public static void main(String[] args) {
         launch(args);
+
+        System.exit(0);
     }
 
     @Override
@@ -31,9 +39,9 @@ public class Run extends Application implements LayoutPoolMap {
         Scene scene = new Scene(root);
 
         /*
-        * Easiest way to load css with the Maven folder structure.
-        * Get css as URL, then convert it to string when adding to scene.
-        * */
+         * Easiest way to load css with the Maven folder structure.
+         * Get css as URL, then convert it to string when adding to scene.
+         * */
         var cssPath = Objects.requireNonNull(getClass().getClassLoader().getResource("style/style.css"));
         scene.getStylesheets().add(cssPath.toString());
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="shadow_caster.db" uuid="ce43575b-fa2a-4172-bea3-4776d3d3cb44">
+    <data-source source="LOCAL" name="shadow_caster.db" uuid="e9f27ea5-e254-427c-abc2-1037a7c716c7">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
