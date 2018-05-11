@@ -1,10 +1,9 @@
-package main.java.gui.layout;
+package gui.layout;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 /**
@@ -17,7 +16,11 @@ public class LayoutManager {
         var resourceBundle = ResourceBundle.getBundle(paneResLoc);
 
         try {
-            return (Pane) FXMLLoader.load(getClass().getResource(paneName), resourceBundle);
+            /*
+            * Using classloader sets the relative path to target/classes/, then
+            * getResources returns the fxml if the path is fxml/[name]
+            * */
+            return (Pane) FXMLLoader.load(getClass().getClassLoader().getResource(paneName), resourceBundle);
 
         } catch (IOException e) {
             System.out.println("layout load error");

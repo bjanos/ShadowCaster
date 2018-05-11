@@ -1,4 +1,4 @@
-package main.java.gui.layout;
+package gui.layout;
 
 /**
  * @author Janos Benyovszki

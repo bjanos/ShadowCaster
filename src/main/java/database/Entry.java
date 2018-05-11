@@ -1,4 +1,4 @@
-package main.java.database;
+package database;
 
 /**
  * Entity class for the obscure table

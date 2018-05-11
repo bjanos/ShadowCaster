@@ -1,7 +1,7 @@
-package main.java.gui.layout;
+package gui.layout;
 
-import main.java.app.SCFunctionTypes;
-import main.java.app.ShadowCaster;
+import app.SCFunctionTypes;
+import app.ShadowCaster;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

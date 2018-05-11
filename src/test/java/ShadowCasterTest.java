@@ -1,7 +1,5 @@
-package test.java;
-
-import main.java.app.SCFunctionTypes;
-import main.java.app.ShadowCaster;
+import app.SCFunctionTypes;
+import app.ShadowCaster;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author Janos Benyovszki
  * */
-public class TestShadowCaster {
+public class ShadowCasterTest {
 
     private static final String TO_OBSCURE = "abc";
     private static final String OBSCURED = "ghi";

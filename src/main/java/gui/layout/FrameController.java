@@ -1,11 +1,11 @@
-package main.java.gui.layout;
+package gui.layout;
 
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
-import main.java.log.Log;
+import log.Log;
 
 /**
  * @author Janos Benyovszki
