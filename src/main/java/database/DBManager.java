@@ -5,6 +5,7 @@ import app.SCFunctionTypes;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -18,6 +19,9 @@ import java.util.List;
  * @author Janos Benyovszki
  */
 public class DBManager {
+
+    private static final String DB_FILE = System.getProperty("user.home") +
+            "\\AppData\\Local\\ShadowCaster\\db\\shadow_caster.db";
 
     private static final String TABLE_OBSCURE = "transactions";
     private static final String COLUMN_OBSCURE_ID = "_id";
@@ -47,9 +51,10 @@ public class DBManager {
 
     public DBManager() {
 
-        if (!checkHomeFolder()) {
-
+        if (Files.notExists(Paths.get(DB_FILE))) {
+            createHomeFolders();
             //TODO log error
+
         }
     }
 
@@ -66,9 +71,8 @@ public class DBManager {
     /**
      * Check if db exists, if not create it.
      */
-    private boolean checkHomeFolder() {
-        String home = System.getProperty("user.home");
-        File dbFile = new File(home + "\\AppData\\Local\\ShadowCaster\\db\\shadow_caster.db");
+    private boolean createHomeFolders() {
+        File dbFile = new File(DB_FILE);
         File dbFolder = new File(dbFile.getParent());
         File scFolder = new File(dbFolder.getParent());
         var toReturn = false;
@@ -94,7 +98,7 @@ public class DBManager {
                  Statement statement = connection.createStatement()) {
                 createTable(statement);
             } catch (SQLException e) {
-
+                System.out.println("error creating table " + e.getMessage());
             }
         }
 

@@ -6,14 +6,18 @@ package log;
  *
  * @author Janos Benyovszki
  */
-enum LogTypes {
-    ERROR("Error"),
-    INFO("Information"),
-    WARNING("Warning");
+public enum LogTypes {
+    ERROR("ERROR"),
+    INFO("INFO"),
+    WARNING("WARNING");
 
     private String text;
 
     LogTypes(String text) {
         this.text = text;
+    }
+
+    public String getText() {
+        return text;
     }
 }

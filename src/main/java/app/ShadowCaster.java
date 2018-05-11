@@ -80,7 +80,6 @@ public class ShadowCaster {
             var stringBuilder = new StringBuilder();
             //TODO complete error message
 
-            log.write("Error in " + getClass());
             return null;
         }
 

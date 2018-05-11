@@ -8,6 +8,9 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import log.Log;
+import log.LogMessage;
+import log.LogTypes;
 
 import java.util.Objects;
 
@@ -17,7 +20,13 @@ import java.util.Objects;
 public class Run extends Application implements LayoutPoolMap {
 
     public static void main(String[] args) {
-        launch(args);
+//        launch(args);
+
+        Log log = new Log();
+        log.write(new LogMessage(LogTypes.INFO, "felfedeztuk a galaxist"));
+        log.write(new LogMessage(LogTypes.WARNING, "megint feldfedeztuk"));
+        log.write(new LogMessage(LogTypes.INFO, "megint feldfedeztuk"));
+        log.write(new LogMessage(LogTypes.ERROR, "megint feldfedeztuk"));
 
     }
 
