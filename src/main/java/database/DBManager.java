@@ -5,8 +5,6 @@ import app.SCFunctionTypes;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -21,7 +19,7 @@ import java.util.List;
  */
 public class DBManager {
 
-    public static final String TABLE_OBSCURE = "transactions";
+    private static final String TABLE_OBSCURE = "transactions";
     private static final String COLUMN_OBSCURE_ID = "_id";
     private static final String COLUMN_OBSCURE_TYPE = "type";
     private static final String COLUMN_OBSCURE_INPUT_TEXT = "inputText";
@@ -94,7 +92,7 @@ public class DBManager {
 
             try (Connection connection = new DataSource().open();
                  Statement statement = connection.createStatement()) {
-                createDB(statement);
+                createTable(statement);
             } catch (SQLException e) {
 
             }
@@ -105,7 +103,7 @@ public class DBManager {
     }
 
     //TODO check where to position and when to execute
-    private void createDB(Statement statement) {
+    private void createTable(Statement statement) {
         try {
             statement.execute(CREATE_TABLE_OBSCURE);
         } catch (SQLException e) {

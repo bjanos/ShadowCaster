@@ -1,5 +1,5 @@
+package app;
 
-import database.DBManager;
 import gui.layout.LayoutManager;
 import gui.layout.LayoutPoolMap;
 import javafx.application.Application;
@@ -9,10 +9,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Objects;
 
 /**
@@ -23,7 +19,6 @@ public class Run extends Application implements LayoutPoolMap {
     public static void main(String[] args) {
         launch(args);
 
-        System.exit(0);
     }
 
     @Override

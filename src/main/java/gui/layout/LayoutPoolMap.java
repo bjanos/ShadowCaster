@@ -27,7 +27,7 @@ public interface LayoutPoolMap {
     static final String FRAME_LOCATION = "fxml/Frame.fxml";
     static final String FRAME_RESOURCE_LOCATION = "text/Frame_en";
     static final String TRANSACTION_LOCATION = "fxml/Transactions.fxml";
-    static final String TRANSACTION_RESOURCE_LOCATION = "text/Transactions";
+    static final String TRANSACTION_RESOURCE_LOCATION = "text/Transactions_en";
     static final String START_LOCATION = "fxml/Start.fxml";
     static final String START_RESOURCE_LOCATION = "text/Start_en";
     static final String DATA_LOCATION = "fxml/Data.fxml";

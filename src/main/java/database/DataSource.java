@@ -23,6 +23,7 @@ class DataSource {
             return DriverManager.getConnection(CONNECTION);
         } catch (SQLException e) {
             //TODO add error logging
+            System.out.println(e.getMessage());
             return null;
         }
     }

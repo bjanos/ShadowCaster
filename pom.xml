@@ -39,7 +39,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Run</mainClass>
+                            <mainClass>app.Run</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

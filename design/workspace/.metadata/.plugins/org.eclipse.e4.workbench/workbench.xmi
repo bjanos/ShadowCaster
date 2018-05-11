@@ -1761,7 +1761,7 @@
   <commands xmi:id="_PghstkIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.declarations.in.working.set" commandName="Declaration in Working Set" description="Search for declarations of the selected element in a working set" category="_PgdbRUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pghst0IXEeeSGf-JVeHt8g" elementId="org.eclipse.oomph.setup.editor.refreshCache" commandName="Refresh Remote Cache" category="_Pgc0N0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PghsuEIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.correction.qualifyField" commandName="Quick Fix - Qualify var access" description="Invokes quick assist and selects 'Qualify var access'" category="_Pgc0OkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PghsuUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.javaAppletShortcut.run" commandName="Run Java Applet" description="Run Java Applet" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PghsuUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.javaAppletShortcut.run" commandName="app.Run Java Applet" description="app.Run Java Applet" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PghsukIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.navigate.previous" commandName="Previous" description="Navigate to the previous item" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pghsu0IXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.clean" commandName="Clean..." category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PghsvEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.rename" commandName="Rename" description="Rename the selected item" category="_Pgc0QUIXEeeSGf-JVeHt8g"/>
@@ -1776,7 +1776,7 @@
   <commands xmi:id="_PghsxUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.debug.ui.script.opensource" commandName="Open Source" description="Shows the JavaScript source for the selected script element" category="_Pgc0QEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PghsxkIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.extract.interface" commandName="Extract Interface" description="Extract a set of members into a new interface and try to use the new interface" category="_Pgc0R0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pghsx0IXEeeSGf-JVeHt8g" elementId="org.eclipse.ltk.ui.refactoring.commands.moveResources" commandName="Move Resources" description="Move the selected resources and notify LTK participants." category="_PgdbTEIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PghsyEIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleGenerateSources.run" commandName="Run Maven Generate Sources" description="Run Maven Generate Sources" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PghsyEIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleGenerateSources.run" commandName="app.Run Maven Generate Sources" description="app.Run Maven Generate Sources" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PghsyUIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.StepInto" commandName="Step Into" description="Step into" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgiTwEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jst.ws.jaxws.ui.configure.handlers" commandName="Configure Handlers" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgiTwUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.sse.ui.structure.select.previous" commandName="Select Previous Element" description="Expand selection to include previous sibling" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
@@ -1897,7 +1897,7 @@
   <commands xmi:id="_PgkwA0IXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigurePush" commandName="Configure Push..." category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgkwBEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.findIncrementalReverse" commandName="Incremental Find Reverse" description="Incremental find reverse" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgkwBUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.introduce.factory" commandName="Introduce Factory" description="Introduce a factory function to encapsulate invocation of the selected constructor" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PgkwBkIXEeeSGf-JVeHt8g" elementId="org.eclipse.ant.ui.antShortcut.run" commandName="Run Ant Build" description="Run Ant Build" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PgkwBkIXEeeSGf-JVeHt8g" elementId="org.eclipse.ant.ui.antShortcut.run" commandName="app.Run Ant Build" description="app.Run Ant Build" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgkwB0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.correction.convertAnonymousToLocal.assist" commandName="Quick Assist - Convert anonymous to local class" description="Invokes quick assist and selects 'Convert anonymous to local class'" category="_Pgc0OkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgkwCEIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.stash.apply" commandName="Apply Stashed Changes" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgkwCUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.commands.Inspect" commandName="Inspect" description="Inspect result of evaluating selected text" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
@@ -2113,7 +2113,7 @@
   <commands xmi:id="_PgpBhkIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.addMemoryMonitor" commandName="Add Memory Block" description="Add memory block" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpBh0IXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.organizeManifest" commandName="Organize Manifests" description="Cleans up plug-in manifest files" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpBiEIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.navigate.gototype" commandName="Go to Type" description="Go to Type" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PgpBiUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.junit.junitShortcut.run" commandName="Run JUnit Test" description="Run JUnit Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PgpBiUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.junit.junitShortcut.run" commandName="app.Run JUnit Test" description="app.Run JUnit Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpBikIXEeeSGf-JVeHt8g" elementId="org.eclipse.jpt.jpa.ui.convertJavaQueries" commandName="Move Java Queries to XML..." category="_PgdbTkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpogEIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.PushHeadToGerrit" commandName="Push Current Head to Gerrit" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpogUIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.selectAll" commandName="Select All" description="Select all" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
@@ -2122,8 +2122,8 @@
   <commands xmi:id="_PgpohEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the compilation unit" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpohUIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.project.rebuildProject" commandName="Rebuild Project" description="Rebuild the selected projects" category="_PgdbQ0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpohkIXEeeSGf-JVeHt8g" elementId="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.pastecolumn" commandName="Paste" category="_Pgc0RkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgpoh0IXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.core.pomFileAction.run" commandName="Run Maven Build" description="Run Maven Build" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PgpoiEIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleInstall.run" commandName="Run Maven Install" description="Run Maven Install" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgpoh0IXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.core.pomFileAction.run" commandName="app.Run Maven Build" description="app.Run Maven Build" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PgpoiEIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleInstall.run" commandName="app.Run Maven Install" description="app.Run Maven Install" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpoiUIXEeeSGf-JVeHt8g" elementId="org.eclipse.datatools.sqltools.sqleditor.ExecuteCurrentAction" commandName="Execute Current Text" category="_PgdbSkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgpoikIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.copyLineDown" commandName="Copy Lines" description="Duplicates the selected lines and moves the selection to the copy" category="_Pgc0OEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgpoi0IXEeeSGf-JVeHt8g" elementId="org.eclipse.oomph.setup.editor.perform" commandName="Perform Setup Tasks" category="_Pgc0N0IXEeeSGf-JVeHt8g"/>
@@ -2163,7 +2163,7 @@
   <commands xmi:id="_Pgq2pkIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.navigate.gotopackage" commandName="Go to Folder" description="Go to Folder" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgq2p0IXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.search.read.access.in.project" commandName="Read Access in Project" description="Search for read references to the selected element in the enclosing project" category="_PgdbRUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgq2qEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.file.closeAllSaved" commandName="Close All Saved" description="Close all saved editors" category="_Pgc0QUIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgq2qUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.server.launchShortcut.run" commandName="Run on Server" description="Run the current selection on a server" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgq2qUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.server.launchShortcut.run" commandName="app.Run on Server" description="app.Run the current selection on a server" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgq2qkIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.move.inner.to.top.level" commandName="Convert Member Type to Top Level" description="Convert member type to top level" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgq2q0IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.redo" commandName="Redo" description="Redo the last operation" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgrdsEIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.server.launchShortcut.debug" commandName="Debug on Server" description="Debug the current selection on a server" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
@@ -2228,7 +2228,7 @@
   <commands xmi:id="_PgsE3EIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.window.nextView" commandName="Next View" description="Switch to the next view" category="_Pgc0RUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgsE3UIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.revertToSaved" commandName="Revert to Saved" description="Revert to the last saved state" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgsE3kIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.views.properties.NewPropertySheetCommand" commandName="Properties" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgsr0EIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.RunToLine" commandName="Run to Line" description="Resume and break when execution reaches the current line" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgsr0EIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.RunToLine" commandName="app.Run to Line" description="Resume and break when execution reaches the current line" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr0UIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.navigate.java.open.structure" commandName="Open Structure" description="Show the structure of the selected element" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr0kIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.EquinoxLaunchShortcut.debug" commandName="Debug OSGi Framework" description="Debug OSGi Framework" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr00IXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.RepositoriesViewPaste" commandName="Paste Repository Path or URI" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
@@ -2237,7 +2237,7 @@
   <commands xmi:id="_Pgsr1kIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.ConfigureFetch" commandName="Configure Upstream Fetch" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr10IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.navigate.goInto" commandName="Go Into" description="Navigate into the selected item" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr2EIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.ConfigureUpstreamPush" commandName="Configure Upstream Push" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgsr2UIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.OpenRunConfigurations" commandName="Run..." description="Open run launch configuration dialog" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgsr2UIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.OpenRunConfigurations" commandName="app.Run..." description="Open run launch configuration dialog" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr2kIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.select.windowEnd" commandName="Select Window End" description="Select to the end of the window" category="_Pgc0OEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr20IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.window.minimizePart" commandName="Minimize Active View or Editor" description="Minimizes the active view or editor" category="_Pgc0RUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr3EIXEeeSGf-JVeHt8g" elementId="org.eclipse.tm.terminal.command1" commandName="Terminal view insert" category="_PgdbREIXEeeSGf-JVeHt8g"/>
@@ -2247,8 +2247,8 @@
   <commands xmi:id="_Pgsr4EIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.commands.AllInstances" commandName="All Instances" description="View all instances of the selected type loaded in the target VM" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr4UIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.history.OpenInCommitViewerCommand" commandName="Open in Commit Viewer" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr4kIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.toggle.comment" commandName="Toggle Comment" description="Toggle comment the selected lines" category="_PgdbUEIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgsr40IXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleTest.run" commandName="Run Maven Test" description="Run Maven Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgsr5EIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.xsl.debug.ui.launchshortcut.run" commandName="Run XSLT Transformation" description="Create a configuration to debug an XSLT transformation" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgsr40IXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleTest.run" commandName="app.Run Maven Test" description="app.Run Maven Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgsr5EIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.xsl.debug.ui.launchshortcut.run" commandName="app.Run XSLT Transformation" description="Create a configuration to debug an XSLT transformation" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr5UIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.window.savePerspective" commandName="Save Perspective As" description="Save the current perspective" category="_Pgc0RUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr5kIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.use.supertype" commandName="Use Supertype Where Possible" description="Change occurrences of a type to use a supertype instead" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgsr50IXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.correction.assignParamToField.assist" commandName="Quick Assist - Assign parameter to field" description="Invokes quick assist and selects 'Assign parameter to field'" category="_PgdbUEIXEeeSGf-JVeHt8g"/>
@@ -2312,7 +2312,7 @@
   <commands xmi:id="_Pgt5_kIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.RepositoriesViewConfigureFetch" commandName="Configure Fetch..." category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgt5_0IXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.api.tools.ui.convert.javadocs" commandName="Convert API Tools &amp;Javadoc Tags..." description="Starts a wizard that will allow you to convert existing Javadoc tags to annotations" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgt6AEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.open.external.javadoc" commandName="Open Attached Javadoc" description="Open the attached Javadoc of the selected element in a browser" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pgt6AUIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.EquinoxLaunchShortcut.run" commandName="Run OSGi Framework" description="Run OSGi Framework" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pgt6AUIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.EquinoxLaunchShortcut.run" commandName="app.Run OSGi Framework" description="app.Run OSGi Framework" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgt6AkIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.shiftLeft" commandName="Shift Left" description="Shift a block of text to the left" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgt6A0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.sse.ui.structure.select.next" commandName="Select Next Element" description="Expand selection to include next sibling" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pgt6BEIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.Push" commandName="Push..." category="_PgdbSUIXEeeSGf-JVeHt8g"/>
@@ -2348,7 +2348,7 @@
   <commands xmi:id="_PguhC0IXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.newRendering" commandName="New Rendering" description="Add a new rendering." category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PguhDEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.project.closeUnrelatedProjects" commandName="Close Unrelated Projects" description="Close unrelated projects" category="_PgdbQ0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PguhDUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.self.encapsulate.field" commandName="Encapsulate Field" description="Create getting and setting methods for the field and use only those to access the field" category="_Pgc0R0IXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_PguhDkIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.runtimeWorkbenchShortcut.run" commandName="Run Eclipse Application" description="Run Eclipse Application" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PguhDkIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.runtimeWorkbenchShortcut.run" commandName="app.Run Eclipse Application" description="app.Run Eclipse Application" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PguhD0IXEeeSGf-JVeHt8g" elementId="org.eclipse.search.ui.performTextSearchWorkspace" commandName="Find Text in Workspace" description="Searches the files in the workspace for specific text." category="_PgdbRUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PguhEEIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.extract.superclass" commandName="Extract Superclass" description="Extract a set of members into a new superclass and try to use the new superclass" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PguhEUIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.sse.ui.remove.block.comment" commandName="Remove Block Comment" description="Remove Block Comment" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
@@ -2385,7 +2385,7 @@
   <commands xmi:id="_PgvIFkIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.tasks.ui.command.addTaskRepository" commandName="Add Task Repository..." category="_Pgc0O0IXEeeSGf-JVeHt8g">
     <parameters xmi:id="_PgvIF0IXEeeSGf-JVeHt8g" elementId="connectorKind" name="Repository Type"/>
   </commands>
-  <commands xmi:id="_PgvIGEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.run" commandName="Run Java Application" description="Run Java Application" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_PgvIGEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.run" commandName="app.Run Java Application" description="app.Run Java Application" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgvIGUIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.addTask" commandName="Add Task..." description="Add a task" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgvIGkIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.sse.ui.structure.select.enclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_PgvIG0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.wsdl.ui.refactor.rename.element" commandName="Rename WSDL component" description="Renames WSDL component" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
@@ -2545,7 +2545,7 @@
   <commands xmi:id="_Pg3D4kIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.infer.type.arguments" commandName="Infer Generic Type Arguments" description="Infer type arguments for references to generic classes and remove unnecessary casts" category="_Pgc0R0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D40IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.goto.lineDown" commandName="Line Down" description="Go down one line of text" category="_Pgc0OEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D5EIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.commit.Checkout" commandName="Checkout" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg3D5UIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleClean.run" commandName="Run Maven Clean" description="Run Maven Clean" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg3D5UIXEeeSGf-JVeHt8g" elementId="org.eclipse.m2e.actions.LifeCycleClean.run" commandName="app.Run Maven Clean" description="app.Run Maven Clean" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D5kIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition" commandName="Last Edit Location" description="Last edit location" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D50IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.open.hyperlink" commandName="Open Hyperlink" description="Opens the hyperlink at the caret location or opens a chooser if more than one hyperlink is available" category="_Pgc0OEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D6EIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.wikitext.ui.convertToEclipseHelpCommand" commandName="Generate Eclipse Help (*.html and *-toc.xml)" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
@@ -2571,8 +2571,8 @@
   <commands xmi:id="_Pg3D-0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.extract.method" commandName="Extract Function" description="Extract a set of statements or an expression into a new function and use the new function" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D_EIXEeeSGf-JVeHt8g" elementId="org.eclipse.jpt.jpa.ui.generateDDL" commandName="Generate Tables from Entities..." category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3D_UIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.xml.ui.referencedFileErrors" commandName="Show Details..." description="Show Details..." category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg3D_kIXEeeSGf-JVeHt8g" elementId="org.eclipse.datatools.sqltools.sqleditor.runAction" commandName="Run" category="_PgdbSkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg3D_0IXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.RunLast" commandName="Run" description="Launch in run mode" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg3D_kIXEeeSGf-JVeHt8g" elementId="org.eclipse.datatools.sqltools.sqleditor.runAction" commandName="app.Run" category="_PgdbSkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg3D_0IXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.RunLast" commandName="app.Run" description="Launch in run mode" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3EAEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.externalTools.commands.OpenExternalToolsConfigurations" commandName="External Tools..." description="Open external tools launch configuration dialog" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3EAUIXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.debug.ui.command.OpenFromClipboard" commandName="Open from Clipboard" description="Opens a Java element or a Java stack trace from clipboard" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3EAkIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.internationalize" commandName="Internationalize Plug-ins" description="Sets up internationalization for a plug-in" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
@@ -2651,7 +2651,7 @@
   <commands xmi:id="_Pg3rG0IXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.context.ui.commands.task.retrieveContext" commandName="Retrieve Context" category="_Pgc0OUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rHEIXEeeSGf-JVeHt8g" elementId="org.eclipse.jst.jsp.ui.refactor.rename" commandName="Rename" description="Rename a Java Element" category="_Pgc0MkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rHUIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.Fetch" commandName="Fetch" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg3rHkIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.junitWorkbenchShortcut.run" commandName="Run JUnit Plug-in Test" description="Run JUnit Plug-in Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg3rHkIXEeeSGf-JVeHt8g" elementId="org.eclipse.pde.ui.junitWorkbenchShortcut.run" commandName="app.Run JUnit Plug-in Test" description="app.Run JUnit Plug-in Test" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rH0IXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.navigate.gotopackage" commandName="Go to Package" description="Go to Package" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rIEIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.task.ui.editor.QuickOutline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_Pgc0O0IXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rIUIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.commands.eof" commandName="EOF" description="Send end of file" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
@@ -2664,7 +2664,7 @@
   <commands xmi:id="_Pg3rKEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.navigate.next" commandName="Next" description="Navigate to the next item" category="_Pgc0PEIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rKUIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.tasks.bugs.commands.newTaskFromMarker" commandName="New Task from Marker..." description="Report as Bug from Marker" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rKkIXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.jsdt.ui.refactor.apply.refactoring.script" commandName="Apply Script" description="Perform refactorings from a refactoring script on the local workspace" category="_PgdbV0IXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg3rK0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.server.run" commandName="Run" description="Run server" category="_Pgc0PkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg3rK0IXEeeSGf-JVeHt8g" elementId="org.eclipse.wst.server.run" commandName="app.Run" description="app.Run server" category="_Pgc0PkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg3rLEIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.context.ui.commands.focus.view" commandName="Focus View" category="_PgdbVkIXEeeSGf-JVeHt8g">
     <parameters xmi:id="_Pg3rLUIXEeeSGf-JVeHt8g" elementId="viewId" name="View ID to Focus" optional="false"/>
   </commands>
@@ -2695,7 +2695,7 @@
   <commands xmi:id="_Pg4SEkIXEeeSGf-JVeHt8g" elementId="org.eclipse.equinox.p2.ui.sdk.install" commandName="Install New Software..." category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg4SE0IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.window.customizePerspective" commandName="Customize Perspective" description="Customize the current perspective" category="_Pgc0RUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg4SFEIXEeeSGf-JVeHt8g" elementId="org.eclipse.mylyn.context.ui.commands.interest.decrement" commandName="Make Less Interesting" description="Make Less Interesting" category="_Pgc0OUIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_Pg4SFUIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" commandName="Run Last Launched External Tool" description="Runs the last launched external Tool" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_Pg4SFUIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar" commandName="app.Run Last Launched External Tool" description="Runs the last launched external Tool" category="_PgdbRkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg4SFkIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.CheckoutCommand" commandName="Checkout" category="_PgdbSUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg4SF0IXEeeSGf-JVeHt8g" elementId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file" commandName="Search All Occurrences in File" description="Search for all occurrences of the selected element in its declaring file" category="_PgdbRUIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_Pg4SGEIXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.edit.text.moveLineUp" commandName="Move Lines Up" description="Moves the selected lines up" category="_Pgc0OEIXEeeSGf-JVeHt8g"/>
@@ -2736,9 +2736,9 @@
   <commands xmi:id="_Pru3IEIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.team.ReplaceWithPrevious" commandName="org.eclipse.egit.ui.team.ReplaceWithPrevious"/>
   <commands xmi:id="_QD7UsEIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.ant.ui.actionSet.presentation/org.eclipse.ant.ui.toggleAutoReconcile" commandName="Toggle Ant Editor Auto Reconcile" description="Toggle Ant Editor Auto Reconcile" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_QD8i0EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.datatools.sqltools.sqlscrapbook.actionSet/org.eclipse.datatools.sqltools.sqlscrapbook.actions.OpenScrapbookAction" commandName="Open SQL Scrapbook" description="Open scrapbook to edit SQL statements" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_QEGT0EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunWithConfigurationAction" commandName="Run As" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_QEG64EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunHistoryMenuAction" commandName="Run History" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
-  <commands xmi:id="_QEHh8EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunDropDownAction" commandName="Run" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_QEGT0EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunWithConfigurationAction" commandName="app.Run As" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_QEG64EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunHistoryMenuAction" commandName="app.Run History" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
+  <commands xmi:id="_QEHh8EIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.RunDropDownAction" commandName="app.Run" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_QEIJAEIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugWithConfigurationAction" commandName="Debug As" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_QEIJAUIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugHistoryMenuAction" commandName="Debug History" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
   <commands xmi:id="_QEIwEEIXEeeSGf-JVeHt8g" elementId="AUTOGEN:::org.eclipse.debug.ui.launchActionSet/org.eclipse.debug.internal.ui.actions.DebugDropDownAction" commandName="Debug" category="_PgdbVkIXEeeSGf-JVeHt8g"/>
@@ -3046,7 +3046,7 @@
   <categories xmi:id="_PgdbQ0IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.category.project" name="Project"/>
   <categories xmi:id="_PgdbREIXEeeSGf-JVeHt8g" elementId="org.eclipse.tm.terminal.category1" name="Terminal view commands" description="Terminal view commands"/>
   <categories xmi:id="_PgdbRUIXEeeSGf-JVeHt8g" elementId="org.eclipse.search.ui.category.search" name="Search" description="Search command category"/>
-  <categories xmi:id="_PgdbRkIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.category.run" name="Run/Debug" description="Run/Debug command category"/>
+  <categories xmi:id="_PgdbRkIXEeeSGf-JVeHt8g" elementId="org.eclipse.debug.ui.category.run" name="app.Run/Debug" description="app.Run/Debug command category"/>
   <categories xmi:id="_PgdbR0IXEeeSGf-JVeHt8g" elementId="org.eclipse.ui.category.dialogs" name="Dialogs" description="Commands for opening dialogs"/>
   <categories xmi:id="_PgdbSEIXEeeSGf-JVeHt8g" elementId="org.eclipse.oomph" name="Oomph"/>
   <categories xmi:id="_PgdbSUIXEeeSGf-JVeHt8g" elementId="org.eclipse.egit.ui.commandCategory" name="Git"/>
