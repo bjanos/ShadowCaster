@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShadowCaster.iml" filepath="$PROJECT_DIR$/ShadowCaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shadow-caster.iml" filepath="$PROJECT_DIR$/shadow-caster.iml" />
     </modules>
   </component>
 </project>

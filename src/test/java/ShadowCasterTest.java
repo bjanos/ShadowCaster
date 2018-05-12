@@ -18,7 +18,7 @@ public class ShadowCasterTest {
     private ShadowCaster shadowCaster;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         shadowCaster = new ShadowCaster();
     }
 
@@ -26,16 +26,16 @@ public class ShadowCasterTest {
 
     @Test
     public void testObscure() {
-//        assertEquals(shadowCaster.execute(TO_OBSCURE, SCFunctionTypes.OBSCURE), OBSCURED);
+        assertEquals(shadowCaster.execute(TO_OBSCURE, SCFunctionTypes.OBSCURE), OBSCURED);
     }
 
     @Test
     public void testReveal() {
-//        assertEquals(shadowCaster.execute(TO_REVEAL, SCFunctionTypes.REVEAL), REVEALED);
+        assertEquals(shadowCaster.execute(TO_REVEAL, SCFunctionTypes.REVEAL), REVEALED);
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown(){
         shadowCaster = null;
     }
 }

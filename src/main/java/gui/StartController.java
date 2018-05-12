@@ -1,4 +1,4 @@
-package gui.layout;
+package gui;
 
 /**
  * @author Janos Benyovszki

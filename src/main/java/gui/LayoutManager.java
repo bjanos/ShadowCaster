@@ -1,7 +1,10 @@
-package gui.layout;
+package gui;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.*;
+import log.Log;
+import log.LogMessage;
+import log.LogTypes;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -13,6 +16,8 @@ import java.util.ResourceBundle;
 public class LayoutManager {
 
     //TODO add method to load css
+
+    private Log log = new Log();
 
     public Pane load(String paneName, String paneResLoc) {
 
@@ -29,8 +34,7 @@ public class LayoutManager {
             );
 
         } catch (IOException e) {
-            System.out.println("layout load error");
-            e.printStackTrace();
+            log.write(new LogMessage(LogTypes.ERROR, "Layout could not be loaded: " + e.getMessage()));
             return null;
         }
 

@@ -1,4 +1,4 @@
-package gui.layout;
+package gui;
 
 import app.SCFunctionTypes;
 import app.ShadowCaster;

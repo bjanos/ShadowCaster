@@ -13,8 +13,6 @@ import static app.SCFunctionTypes.*;
  */
 public class ShadowCaster {
 
-    private Log log;
-
     /**
      * Runs either obscure or reveal. Sends the initial and
      * translated string to the data.

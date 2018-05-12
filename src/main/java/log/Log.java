@@ -3,7 +3,6 @@ package log;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -17,8 +16,6 @@ public class Log {
     private static final String LOG_LOCATION = System.getProperty("user.home") + "\\ShadowCaster\\";
     private static final String LOG_FILE = LOG_LOCATION + "shadow_caster_log.txt";
 
-    private Calendar calendar;
-
     //TODO implement
 
     /**
@@ -28,36 +25,31 @@ public class Log {
     public Log() {
 
         if (Files.notExists(Paths.get(LOG_FILE))) {
-
             createLogFolder();
-            //TODO log error
-
         }
     }
 
-    private boolean createLogFolder() {
+    private void createLogFolder() {
         File logFile = new File(LOG_FILE);
         File logFolder = new File(logFile.getParent());
-        var toReturn = false;
 
         if (Files.notExists(logFolder.toPath())) {
-            System.out.println("Log folder not found");
-            toReturn = logFolder.mkdir();
+            //TODO handle return value of mkdir
+            logFolder.mkdir();
         }
 
         if (Files.notExists(logFile.toPath())) {
             try {
-                toReturn = logFile.createNewFile();
+                logFile.createNewFile();
             } catch (IOException e) {
-                System.out.println("error creating file " + e.getMessage());
+                e.printStackTrace();
             }
         }
 
-        return toReturn;
     }
 
     public void write(LogMessage logMessage) {
-        calendar = new GregorianCalendar();
+        Calendar calendar = new GregorianCalendar();
         Date now = calendar.getTime();
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH:mm");
         String message = String.format(
@@ -80,7 +72,7 @@ public class Log {
 
     public static void openLogLocation() {
         try {
-            Runtime.getRuntime().exec("explorer.exe /select, " + LOG_LOCATION);
+            Runtime.getRuntime().exec("explorer.exe /select, " + LOG_FILE);
         } catch (Exception e) {
             e.printStackTrace();
         }

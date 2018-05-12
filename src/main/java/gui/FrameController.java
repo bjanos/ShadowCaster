@@ -1,9 +1,11 @@
-package gui.layout;
+package gui;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import log.Log;
 
@@ -17,7 +19,18 @@ public class FrameController implements LayoutPoolMap {
     @FXML
     private BorderPane frame;
 
+    @FXML
+    private Label footerTimeLabel;
+
     private LayoutManager layoutManager = new LayoutManager();
+
+    private Clock clock = new Clock();
+
+
+    public void initialize() {
+//        footerTimeLabel.textProperty().bind(clock.messageProperty());
+    }
+
 
     @FXML
     private void showTransactions(ActionEvent event) {
@@ -26,7 +39,6 @@ public class FrameController implements LayoutPoolMap {
 
     @FXML
     private void showData(ActionEvent event) {
-
         setCenter(event, DATA_LOCATION, DATA_RESOURCE_LOCATION);
     }
 
@@ -42,8 +54,8 @@ public class FrameController implements LayoutPoolMap {
         var source = event.getSource();
 
         /*
-        * If start buttons are clicked frame is not initialised. This way it is.
-        * */
+         * If start buttons are clicked frame is not initialised. This way it is.
+         * */
         if (source instanceof Button && frame == null) {
             frame = (BorderPane) ((Button) event.getSource()).getScene().getRoot();
         }

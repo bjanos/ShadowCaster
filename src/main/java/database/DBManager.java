@@ -1,6 +1,9 @@
 package database;
 
 import app.SCFunctionTypes;
+import log.Log;
+import log.LogMessage;
+import log.LogTypes;
 
 import java.io.File;
 import java.io.IOException;
@@ -53,8 +56,8 @@ public class DBManager {
 
         if (Files.notExists(Paths.get(DB_FILE))) {
             createHomeFolders();
-            //TODO log error
 
+            new Log().write(new LogMessage(LogTypes.INFO, "DataBase not found. Database recreated."));
         }
     }
 
@@ -71,38 +74,37 @@ public class DBManager {
     /**
      * Check if db exists, if not create it.
      */
-    private boolean createHomeFolders() {
+    private void createHomeFolders() {
         File dbFile = new File(DB_FILE);
         File dbFolder = new File(dbFile.getParent());
         File scFolder = new File(dbFolder.getParent());
-        var toReturn = false;
+        Log log = new Log();
 
         if (Files.notExists(scFolder.toPath())) {
-            System.out.println("SC folder not found");
-            toReturn = scFolder.mkdir();
+            //TODO handle return value of mkdir
+            scFolder.mkdir();
+            log.write(new LogMessage(LogTypes.INFO, "Main folder not found. Main folder recreated."));
         }
 
         if (Files.notExists(dbFolder.toPath())) {
-            System.out.println("DB folder not found");
-            toReturn = dbFolder.mkdir();
+            dbFolder.mkdir();
+            log.write(new LogMessage(LogTypes.INFO, "DB folder not found. DB folder recreated."));
         }
 
         if (Files.notExists(dbFile.toPath())) {
             try {
-                toReturn = dbFile.createNewFile();
+                dbFile.createNewFile();
             } catch (IOException e) {
-                System.out.println("error creating file " + e.getMessage());
+                log.write(new LogMessage(LogTypes.ERROR, "Error creating .db file: " + e.getMessage()));
             }
 
             try (Connection connection = new DataSource().open();
                  Statement statement = connection.createStatement()) {
                 createTable(statement);
             } catch (SQLException e) {
-                System.out.println("error creating table " + e.getMessage());
+                log.write(new LogMessage(LogTypes.ERROR, "Error creating table: " + e.getMessage()));
             }
         }
-
-        return toReturn;
 
     }
 
@@ -111,8 +113,7 @@ public class DBManager {
         try {
             statement.execute(CREATE_TABLE_OBSCURE);
         } catch (SQLException e) {
-            //TODO log error
-            System.out.println("DB created");
+            new Log().write(new LogMessage(LogTypes.ERROR, "DataBase table could not be created"));
         }
 
     }
@@ -134,14 +135,21 @@ public class DBManager {
         stringBuilder.append("'").append(entry.getInputText()).append("'").append(", ");
         stringBuilder.append("'").append(entry.getDate()).append("'").append(INSERT_NEW_ROW_END);
 
-        try (Connection connection = new DataSource().open();
-             Statement statement = connection.createStatement()
-        ) {
+        try {
+            Connection connection = new DataSource().open();
+            if (connection == null) {
+
+                new Log().write(
+                        new LogMessage(
+                                LogTypes.ERROR,
+                                "Connection could not be established with the DataBase")
+                );
+                return;
+            }
+            Statement statement = connection.createStatement();
             statement.execute(stringBuilder.toString());
         } catch (SQLException e) {
-
-            System.out.println(e.getMessage());
-            //TODO add error to logs
+            new Log().write(new LogMessage(LogTypes.ERROR, "Inserting entry to database failed: " + e.getMessage()));
         }
 
     }
@@ -156,9 +164,9 @@ public class DBManager {
             statement.execute(SELECT_ALL);
 
         } catch (SQLException e) {
-        }
+            new Log().write(new LogMessage(LogTypes.ERROR, "Select entries failed"));
 
-        //TODO add error to Logs
+        }
 
         return null;
     }
