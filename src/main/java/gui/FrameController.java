@@ -1,15 +1,23 @@
 package gui;
 
 import javafx.application.Platform;
+import javafx.beans.Observable;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.value.ObservableValue;
+import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import log.Log;
 
+import java.net.URL;
 import java.util.Objects;
+import java.util.ResourceBundle;
+import java.util.concurrent.ExecutorService;
 
 /**
  * @author Janos Benyovszki
@@ -23,14 +31,6 @@ public class FrameController implements LayoutPoolMap {
     private Label footerTimeLabel;
 
     private LayoutManager layoutManager = new LayoutManager();
-
-    private Clock clock = new Clock();
-
-
-    public void initialize() {
-//        footerTimeLabel.textProperty().bind(clock.messageProperty());
-    }
-
 
     @FXML
     private void showTransactions(ActionEvent event) {
@@ -79,7 +79,6 @@ public class FrameController implements LayoutPoolMap {
     private void openLogLocation() {
         Log.openLogLocation();
     }
-
 
     @FXML
     private void exit(ActionEvent event) {

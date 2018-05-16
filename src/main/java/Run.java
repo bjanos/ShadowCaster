@@ -1,4 +1,3 @@
-import gui.Clock;
 import gui.LayoutManager;
 import gui.LayoutPoolMap;
 import javafx.application.Application;
@@ -41,7 +40,6 @@ public class Run extends Application implements LayoutPoolMap {
 
         primaryStage.setScene(scene);
         primaryStage.show();
-
         setup();
 
     }
