@@ -1,36 +1,43 @@
 package gui;
 
-import javafx.application.Platform;
-import javafx.beans.Observable;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.value.ObservableValue;
-import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import log.Log;
 
 import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
-import java.util.concurrent.ExecutorService;
 
 /**
  * @author Janos Benyovszki
  */
-public class FrameController implements LayoutPoolMap {
+public class FrameController implements LayoutPoolMap, Initializable {
 
     @FXML
     private BorderPane frame;
 
     @FXML
-    private Label footerTimeLabel;
+    Button dataBtn;
+
+    @FXML
+    Button transactionBtn;
+
+    @FXML
+    Label footerMsgLabel;
 
     private LayoutManager layoutManager = new LayoutManager();
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        dataBtn.setUserData("Open the list of transactions");
+        transactionBtn.setUserData("Encode / decode");
+    }
 
     @FXML
     private void showTransactions(ActionEvent event) {
@@ -84,5 +91,17 @@ public class FrameController implements LayoutPoolMap {
     private void exit(ActionEvent event) {
         System.exit(0);
 
+    }
+
+    @FXML
+    void onMouseEntered(MouseEvent event) {
+        Button source = (Button) event.getSource();
+        String userDataText = source.getUserData().toString();
+        footerMsgLabel.setText(source.getUserData().toString());
+    }
+
+    @FXML
+    void onMouseExited(MouseEvent event) {
+        footerMsgLabel.setText("Application running");
     }
 }

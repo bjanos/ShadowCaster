@@ -21,9 +21,6 @@ public class Run extends Application implements LayoutPoolMap {
 
         Pane root = layoutManager.load(FRAME_LOCATION, FRAME_RESOURCE_LOCATION);
 
-        BorderPane borderPane = (BorderPane) root;
-        borderPane.setCenter(layoutManager.load(START_LOCATION, START_RESOURCE_LOCATION));
-
         Scene scene = new Scene(root);
 
         /*

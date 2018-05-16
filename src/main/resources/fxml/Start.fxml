@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
@@ -14,7 +15,7 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Button fx:id="transactionBtn" alignment="CENTER" mnemonicParsing="false" onAction="#showTransactions" styleClass="startBtn" text="%transactionBtn" GridPane.rowIndex="1" />
+      <Button fx:id="transactionBtn" alignment="CENTER" mnemonicParsing="false" onAction="#showTransactions" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" styleClass="startBtn" text="%transactionBtn" GridPane.rowIndex="1" />
       <Button fx:id="dataBtn" alignment="CENTER" mnemonicParsing="false" onAction="#showData" styleClass="startBtn" text="%dataBtn" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>
