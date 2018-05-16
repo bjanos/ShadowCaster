@@ -5,7 +5,7 @@ package database;
  *
  * @author Janos Benyovszki
  */
-class Entry {
+public class Entry {
 
     //id is read-only as its a primary key and auto-incremented
     private int id;

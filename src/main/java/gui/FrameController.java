@@ -96,7 +96,6 @@ public class FrameController implements LayoutPoolMap, Initializable {
     @FXML
     void onMouseEntered(MouseEvent event) {
         Button source = (Button) event.getSource();
-        String userDataText = source.getUserData().toString();
         footerMsgLabel.setText(source.getUserData().toString());
     }
 

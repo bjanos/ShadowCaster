@@ -1,6 +1,7 @@
 package database;
 
 import app.SCFunctionTypes;
+import javafx.collections.ObservableList;
 import log.Log;
 import log.LogMessage;
 import log.LogTypes;
@@ -9,10 +10,9 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
@@ -157,18 +157,33 @@ public class DBManager {
     /**
      * Returns all entries from the obscure table
      */
-    private List<Entry> selectAllEntries() {
+    public ArrayList<Entry> returnAllEntries() {
+
+        ArrayList<Entry> returnList = new ArrayList<>();
 
         try (Connection connection = new DataSource().open();
              Statement statement = connection.createStatement()) {
-            statement.execute(SELECT_ALL);
+            ResultSet resultSet = statement.executeQuery(SELECT_ALL);
+
+            while (resultSet.next()) {
+                Entry entry = new Entry(
+                        resultSet.getString("type"),
+                        resultSet.getString("inputText"),
+                        null,
+                        resultSet.getString("date")
+                );
+
+                returnList.add(entry);
+
+            }
+
 
         } catch (SQLException e) {
             new Log().write(new LogMessage(LogTypes.ERROR, "Select entries failed"));
 
         }
 
-        return null;
+        return returnList;
     }
 
 
