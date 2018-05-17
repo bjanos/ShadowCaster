@@ -2,13 +2,18 @@ package gui;
 
 import database.DBManager;
 import database.Entry;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableArray;
+import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
-import javax.swing.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -22,37 +27,56 @@ public class DataController implements Initializable {
     private ProgressBar progressBar;
 
     @FXML
+    private TableView<Entry> tableView;
+
+    @FXML
+    private TableColumn<Entry, String> dateColumn;
+
+    @FXML
+    private TableColumn<Entry, String> typeColumn;
+
+    @FXML
+    private TableColumn<Entry, String> inputColumn;
+
+
+    @FXML
     private Label progressLabel;
+
+    private ObservableList<Entry> data;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        DBManager dbManager = new DBManager();
-        ArrayList<Entry> entries = dbManager.returnAllEntries();
+        listEntries();
+    }
 
-
-        progressLabel.setText("WORKS");
-
-        Task task = new Task<Void>() {
+    private void listEntries() {
+        Task task = new Task() {
             @Override
-            protected Void call() throws Exception {
-                return null;
-            }
+            protected Object call() {
+                ArrayList<Entry> entries = new DBManager().returnAllEntries();
 
-            @Override public void run() {
-                final long max = 9999;
-                for (int i=1; i<=max; i++) {
-                    updateProgress(i, max);
+                ObservableList<Entry> list = FXCollections.observableArrayList(entries);
+
+                for (Entry e : list) {
+                    System.out.printf(
+                            "%s %s %s\n",
+                            e.getType(),
+                            e.getInputText(),
+                            e.getDate());
                 }
-            }
 
-            @Override
-            public boolean cancel(boolean mayInterruptIfRunning) {
-                return super.cancel(mayInterruptIfRunning);
+                data = FXCollections.observableArrayList(entries);
+
+                return null;
             }
         };
 
-        progressBar.progressProperty().bind(task.progressProperty());
+        tableView.itemsProperty().bind(task.valueProperty());
         new Thread(task).start();
 
+
     }
+
+
 }

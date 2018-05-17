@@ -115,7 +115,6 @@ public class DBManager {
         } catch (SQLException e) {
             new Log().write(new LogMessage(LogTypes.ERROR, "DataBase table could not be created"));
         }
-
     }
 
     /**
@@ -125,7 +124,7 @@ public class DBManager {
         var calendar = Calendar.getInstance().getTime();
         var sdf = new SimpleDateFormat("yyyy-MM-dd_HH:mm");
 
-        return new Entry(type.toString(), input, output, sdf.format(calendar));
+        return new Entry(type.toString(), input, sdf.format(calendar));
     }
 
     private void insert(Entry entry) {
@@ -169,7 +168,6 @@ public class DBManager {
                 Entry entry = new Entry(
                         resultSet.getString("type"),
                         resultSet.getString("inputText"),
-                        null,
                         resultSet.getString("date")
                 );
 

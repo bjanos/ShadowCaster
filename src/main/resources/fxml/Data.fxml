@@ -21,11 +21,11 @@
                   </ProgressBar>
                </children>
             </VBox>
-            <TableView layoutX="216.0" layoutY="16.0" prefHeight="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <TableView fx:id="tableView" layoutX="216.0" layoutY="16.0" prefHeight="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <columns>
-                  <TableColumn maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="150.0" text="%typeCol" />
-                <TableColumn maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="100.0" text="%inputCol" />
-                <TableColumn maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="200.0" text="%dateCol" />
+                  <TableColumn fx:id="typeColumn" maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="150.0" text="%typeCol" />
+               <TableColumn fx:id="inputColumn" maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="100.0" text="%inputCol" />
+                <TableColumn fx:id="dateColumn" maxWidth="1.7976931348623157E308" minWidth="-1.0" prefWidth="200.0" text="%dateCol" />
               </columns>
             </TableView>
          </children>
