@@ -33,6 +33,7 @@
             <children>
                 <Button fx:id="obscBtn" mnemonicParsing="false" onAction="#obscure" text="%obscureButton" />
                 <Button fx:id="revBtn" mnemonicParsing="false" onAction="#reveal" text="%revealButton" />
+            <Button mnemonicParsing="false" onAction="#clear" text="%clearButton" />
             </children>
             <padding>
                 <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />

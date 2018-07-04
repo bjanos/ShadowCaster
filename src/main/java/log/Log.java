@@ -45,7 +45,6 @@ public class Log {
                 e.printStackTrace();
             }
         }
-
     }
 
     public void write(LogMessage logMessage) {

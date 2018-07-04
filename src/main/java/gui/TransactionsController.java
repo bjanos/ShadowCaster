@@ -41,4 +41,10 @@ public class TransactionsController {
         outputTxtField.setText(shadowCaster.execute(inputTxtArea.getText(), SCFunctionTypes.REVEAL));
     }
 
+    @FXML
+    private void clear() {
+        outputTxtField.setText("");
+        inputTxtArea.setText("");
+    }
+
 }

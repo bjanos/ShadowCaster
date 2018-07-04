@@ -28,8 +28,6 @@ public interface LayoutPoolMap {
     String FRAME_RESOURCE_LOCATION = "text/Frame_en";
     String TRANSACTION_LOCATION = "fxml/Transactions.fxml";
     String TRANSACTION_RESOURCE_LOCATION = "text/Transactions_en";
-    String START_LOCATION = "fxml/Start.fxml";
-    String START_RESOURCE_LOCATION = "text/Start_en";
     String DATA_LOCATION = "fxml/Data.fxml";
     String DATA_RESOURCE_LOCATION = "text/Data_en";
 
