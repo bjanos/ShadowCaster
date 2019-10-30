@@ -13,6 +13,10 @@ import java.util.Objects;
  * @author Janos Benyovszki
  */
 public class Run extends Application implements LayoutPoolMap {
+    /**
+     * random comment
+     */
+
 
     @Override
     public void start(Stage primaryStage) {
