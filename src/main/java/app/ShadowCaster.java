@@ -1,9 +1,9 @@
-package main.java.app;
+package app;
 
-import main.java.database.DBManager;
-import main.java.log.Log;
+import database.DBManager;
+import log.Log;
 
-import static main.java.app.SCFunctionTypes.*;
+import static app.SCFunctionTypes.*;
 
 /**
  * Obscures a string or reveals one. Errors are logged.
@@ -12,8 +12,6 @@ import static main.java.app.SCFunctionTypes.*;
  * @author Janos Benyovszki
  */
 public class ShadowCaster {
-
-    private Log log;
 
     /**
      * Runs either obscure or reveal. Sends the initial and
@@ -80,7 +78,6 @@ public class ShadowCaster {
             var stringBuilder = new StringBuilder();
             //TODO complete error message
 
-            log.write("Error in " + getClass());
             return null;
         }
 

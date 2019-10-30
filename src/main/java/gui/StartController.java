@@ -1,4 +1,7 @@
-package main.java.gui.layout;
+package gui;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 
 /**
  * @author Janos Benyovszki
@@ -6,4 +9,6 @@ package main.java.gui.layout;
 public class StartController implements LayoutPoolMap {
 
     //TODO check if needed
+
+
 }

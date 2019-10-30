@@ -1,55 +1,46 @@
-package main.java.database;
+package database;
+
+import javafx.beans.property.SimpleStringProperty;
 
 /**
  * Entity class for the obscure table
  *
  * @author Janos Benyovszki
  */
-class Entry {
+public class Entry {
 
     //id is read-only as its a primary key and auto-incremented
-    private int id;
-    private String type;
-    private String inputText;
-    private String outputText;
-    private String Date;
+    private SimpleStringProperty type;
+    private SimpleStringProperty inputText;
+    private SimpleStringProperty date;
 
-    public Entry(String type, String inputText, String outputText, String date) {
-        this.type = type;
-        this.inputText = inputText;
-        this.outputText = outputText;
-        Date = date;
-    }
-
-    public int getId() {
-        return id;
+    public Entry(String type, String inputText, String date) {
+        this.type = new SimpleStringProperty(type);
+        this.inputText = new SimpleStringProperty(inputText);
+        this.date = new SimpleStringProperty(date);
     }
 
     public String getType() {
-        return type;
+        return type.get();
     }
 
-    String getInputText() {
-        return inputText;
+    public String getInputText() {
+        return inputText.get();
     }
 
-    String getDate() {
-        return Date;
+    public String getDate() {
+        return date.get();
     }
 
     public void setType(String type) {
-        this.type = type;
+        this.type.set(type);
     }
 
     public void setInputText(String inputText) {
-        this.inputText = inputText;
-    }
-
-    public void setOutputText(String outputText) {
-        this.outputText = outputText;
+        this.inputText.set(inputText);
     }
 
     public void setDate(String date) {
-        Date = date;
+        this.date.set(date);
     }
 }

@@ -1,21 +1,43 @@
-package main.java.gui.layout;
+package gui;
 
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
-import main.java.log.Log;
+import log.Log;
+
+import java.net.URL;
+import java.util.Objects;
+import java.util.ResourceBundle;
 
 /**
  * @author Janos Benyovszki
  */
-public class FrameController implements LayoutPoolMap {
+public class FrameController implements LayoutPoolMap, Initializable {
 
     @FXML
     private BorderPane frame;
 
+    @FXML
+    Button dataBtn;
+
+    @FXML
+    Button transactionBtn;
+
+    @FXML
+    Label footerMsgLabel;
+
     private LayoutManager layoutManager = new LayoutManager();
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        dataBtn.setUserData("Open the list of transactions");
+        transactionBtn.setUserData("Encode / decode");
+    }
 
     @FXML
     private void showTransactions(ActionEvent event) {
@@ -24,7 +46,6 @@ public class FrameController implements LayoutPoolMap {
 
     @FXML
     private void showData(ActionEvent event) {
-
         setCenter(event, DATA_LOCATION, DATA_RESOURCE_LOCATION);
     }
 
@@ -40,8 +61,8 @@ public class FrameController implements LayoutPoolMap {
         var source = event.getSource();
 
         /*
-        * If start buttons are clicked frame is not initialised. This way it is.
-        * */
+         * If start buttons are clicked frame is not initialised. This way it is.
+         * */
         if (source instanceof Button && frame == null) {
             frame = (BorderPane) ((Button) event.getSource()).getScene().getRoot();
         }
@@ -54,7 +75,10 @@ public class FrameController implements LayoutPoolMap {
          * when out of focus. Weird...
          * */
         frame.getScene().getStylesheets().removeAll();
-        frame.getScene().getStylesheets().add("main/java/gui/style/style.css");
+        var cssPath = Objects.requireNonNull(getClass().getClassLoader()
+                .getResource("style/style.css"));
+        frame.getScene().getStylesheets().add(cssPath.toString());
+
 
     }
 
@@ -63,10 +87,20 @@ public class FrameController implements LayoutPoolMap {
         Log.openLogLocation();
     }
 
-
     @FXML
     private void exit(ActionEvent event) {
         System.exit(0);
 
+    }
+
+    @FXML
+    void onMouseEntered(MouseEvent event) {
+        Button source = (Button) event.getSource();
+        footerMsgLabel.setText(source.getUserData().toString());
+    }
+
+    @FXML
+    void onMouseExited(MouseEvent event) {
+        footerMsgLabel.setText("Application running");
     }
 }

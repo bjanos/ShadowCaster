@@ -1,7 +1,5 @@
-package test.java;
-
-import main.java.app.SCFunctionTypes;
-import main.java.app.ShadowCaster;
+import app.SCFunctionTypes;
+import app.ShadowCaster;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author Janos Benyovszki
  * */
-public class TestShadowCaster {
+public class ShadowCasterTest {
 
     private static final String TO_OBSCURE = "abc";
     private static final String OBSCURED = "ghi";
@@ -20,9 +18,11 @@ public class TestShadowCaster {
     private ShadowCaster shadowCaster;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         shadowCaster = new ShadowCaster();
     }
+
+    //TODO fix error during maven test execution
 
     @Test
     public void testObscure() {
@@ -35,7 +35,7 @@ public class TestShadowCaster {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown(){
         shadowCaster = null;
     }
 }

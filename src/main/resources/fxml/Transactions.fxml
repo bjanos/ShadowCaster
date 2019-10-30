@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.geometry.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" onKeyPressed="#keyHandle" spacing="8.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.gui.layout.TransactionsController">
+<VBox alignment="CENTER" onKeyPressed="#keyHandle" spacing="8.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.TransactionsController">
     <children>
         <VBox alignment="TOP_CENTER">
             <children>
@@ -35,6 +33,7 @@
             <children>
                 <Button fx:id="obscBtn" mnemonicParsing="false" onAction="#obscure" text="%obscureButton" />
                 <Button fx:id="revBtn" mnemonicParsing="false" onAction="#reveal" text="%revealButton" />
+            <Button mnemonicParsing="false" onAction="#clear" text="%clearButton" />
             </children>
             <padding>
                 <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />

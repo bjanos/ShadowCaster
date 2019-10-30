@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane fx:id="frame" minHeight="200.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.gui.layout.FrameController">
+<BorderPane fx:id="frame" minHeight="400.0" minWidth="300.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.FrameController">
     <top>
         <VBox>
             <children>
@@ -41,6 +41,21 @@
         </VBox>
     </top>
     <center>
+        <GridPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+            <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="transactionBtn" alignment="CENTER" mnemonicParsing="false" onAction="#showTransactions" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" styleClass="startBtn" text="%transactionBtn" GridPane.rowIndex="1" />
+                <Button fx:id="dataBtn" alignment="CENTER" mnemonicParsing="false" onAction="#showData" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" styleClass="startBtn" text="%dataBtn" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            </children>
+        </GridPane>
     </center>
     <bottom>
         <GridPane>
@@ -55,11 +70,6 @@
                 <HBox>
                     <children>
                         <Label fx:id="footerMsgLabel" text="%footerMessageLabel" />
-                    </children>
-                </HBox>
-                <HBox alignment="TOP_RIGHT" GridPane.columnIndex="1">
-                    <children>
-                        <Label fx:id="footerTimeLabel" text="%footerTimeLabel" />
                     </children>
                 </HBox>
             </children>
