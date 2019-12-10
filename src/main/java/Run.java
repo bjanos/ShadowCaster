@@ -30,7 +30,7 @@ public class Run extends Application implements LayoutPoolMap {
         var cssPath = Objects.requireNonNull(getClass().getClassLoader().getResource("style/style.css"));
         scene.getStylesheets().add(cssPath.toString());
 
-        primaryStage.setTitle("Shadow Caster");
+        primaryStage.setTitle("Shadow Caster 1.0");
 
         var iconPath = Objects.requireNonNull(getClass().getClassLoader().getResource("img/icon.png"));
         primaryStage.getIcons().add(new Image(iconPath.toString()));
